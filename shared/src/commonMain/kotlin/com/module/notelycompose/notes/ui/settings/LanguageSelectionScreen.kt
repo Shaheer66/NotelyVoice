@@ -82,6 +82,7 @@ val languageCodeMap = mapOf(
     "th" to "Thai",
     "tr" to "Turkish",
     "uk" to "Ukrainian",
+    "ur" to "Urdu",
     "vi" to "Vietnamese",
 )
 
