@@ -181,18 +181,18 @@ compose.resources {
     generateResClass = always
 }
 
-tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
-    doFirst {
-        // Force consistent ordering by sorting resource directories
-        val resourceDirs = project.file("src/commonMain/composeResources")
-            .listFiles { file -> file.isDirectory && file.name.startsWith("values") }
-            ?.sortedBy { it.name }
-
-        // Set system property to ensure consistent processing
-        System.setProperty("compose.resources.processing.order",
-            resourceDirs?.joinToString(",") { it.name } ?: "")
-    }
-}
+//tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
+//    doFirst {
+//        // Force consistent ordering by sorting resource directories
+//        val resourceDirs = project.file("src/commonMain/composeResources")
+//            .listFiles { file -> file.isDirectory && file.name.startsWith("values") }
+//            ?.sortedBy { it.name }
+//
+//        // Set system property to ensure consistent processing
+//        System.setProperty("compose.resources.processing.order",
+//            resourceDirs?.joinToString(",") { it.name } ?: "")
+//    }
+//}
 
 tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
     doFirst {
