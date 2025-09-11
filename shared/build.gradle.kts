@@ -247,7 +247,6 @@ android {
             excludes += "META-INF/LICENSE*"
             excludes += "META-INF/NOTICE*"
             excludes += "META-INF/*.version"
-            excludes += "assets/composeResources/com.module.notelycompose.resources/strings.xml"
         }
 
         // Force deterministic file ordering
