@@ -105,6 +105,7 @@ kotlin {
     targets.all {
         compilations.all {
             compilerOptions.configure {
+                allWarningsAsErrors = false
                 freeCompilerArgs.add("-Xexpected-actual-classes")
                 // For deterministic builds
                 freeCompilerArgs.add("-Xjsr305=strict")
@@ -114,6 +115,7 @@ kotlin {
                 freeCompilerArgs.add("-Xno-optimize")
                 freeCompilerArgs.add("-Xassertions=jvm")
                 freeCompilerArgs.add("-Xuse-deterministic-jar-order")
+                freeCompilerArgs.add("-opt-in=kotlin.RequiresOptIn")
             }
         }
     }
@@ -275,6 +277,15 @@ android {
         // Ensure deterministic resource compilation
         noCompress.addAll(listOf("tflite", "lite"))
         generateLocaleConfig = false
+    }
+    tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
+        doFirst {
+            // Force deterministic resource generation
+            System.setProperty("kotlin.collections.hash.seed", "0")
+            System.setProperty("java.util.HashMap.randomSeed", "0")
+            System.setProperty("user.language", "en")
+            System.setProperty("user.country", "US")
+        }
     }
     dependenciesInfo {
         // Disables dependency metadata when building APKs.
