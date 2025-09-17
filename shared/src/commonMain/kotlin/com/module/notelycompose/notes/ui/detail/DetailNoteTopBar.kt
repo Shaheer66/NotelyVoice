@@ -37,6 +37,7 @@ import com.module.notelycompose.resources.top_bar_import_audio
 import com.module.notelycompose.resources.top_bar_my_note
 import com.module.notelycompose.resources.top_bar_export_as_txt
 import com.module.notelycompose.resources.top_bar_export_as_pdf
+import com.module.notelycompose.resources.top_bar_import_video
 import com.module.notelycompose.resources.vectors.IcChevronLeft
 import com.module.notelycompose.resources.vectors.Images
 import org.jetbrains.compose.resources.stringResource
@@ -48,11 +49,13 @@ fun DetailNoteTopBar(
     onShare: () -> Unit = {},
     onExportAudio: () -> Unit,
     onImportClick: () -> Unit = {},
+    onImportVideoClick: () -> Unit = {},
     onExportTextAsTxt: () -> Unit,
     onExportTextAsPDF: () -> Unit,
     isRecordingExist: Boolean
 ) {
     var showExistingRecordConfirmDialog by remember { mutableStateOf(false) }
+    var showExistingVideoRecordConfirmDialog by remember { mutableStateOf(false) }
     if (getPlatform().isAndroid) {
         DetailAndroidNoteTopBar(
             title = title,
@@ -64,6 +67,13 @@ fun DetailNoteTopBar(
                     onImportClick()
                 } else {
                     showExistingRecordConfirmDialog = true
+                }
+            },
+            onImportVideoClick = {
+                if (!isRecordingExist) {
+                    onImportVideoClick()
+                } else {
+                    showExistingVideoRecordConfirmDialog = true
                 }
             },
             onExportTextAsTxt = onExportTextAsTxt,
@@ -81,6 +91,13 @@ fun DetailNoteTopBar(
                     showExistingRecordConfirmDialog = true
                 }
             },
+            onImportVideoClick = {
+                if (!isRecordingExist) {
+                    onImportVideoClick()
+                } else {
+                    showExistingVideoRecordConfirmDialog = true
+                }
+            },
             onExportTextAsTxt = onExportTextAsTxt,
             onExportTextAsPDF = onExportTextAsPDF
         )
@@ -96,6 +113,17 @@ fun DetailNoteTopBar(
         },
         option = RecordingConfirmationUiModel.Import
     )
+
+    ReplaceRecordingConfirmationDialog(
+        showDialog = showExistingVideoRecordConfirmDialog,
+        onDismiss = {
+            showExistingVideoRecordConfirmDialog = false
+        },
+        onConfirm = {
+            onImportVideoClick()
+        },
+        option = RecordingConfirmationUiModel.Import
+    )
 }
 
 @Composable
@@ -105,6 +133,7 @@ fun DetailAndroidNoteTopBar(
     onShare: () -> Unit,
     onExportAudio: () -> Unit,
     onImportClick: () -> Unit,
+    onImportVideoClick: () -> Unit,
     onExportTextAsTxt: () -> Unit,
     onExportTextAsPDF: () -> Unit,
     elevation: Dp = AppBarDefaults.TopAppBarElevation
@@ -130,6 +159,7 @@ fun DetailAndroidNoteTopBar(
             DetailDropDownMenu(
                 onExportAudio = onExportAudio,
                 onImportClick = onImportClick,
+                onImportVideoClick = onImportVideoClick,
                 onExportTextAsTxt = onExportTextAsTxt,
                 onExportTextAsPDF = onExportTextAsPDF
             )
@@ -145,6 +175,7 @@ fun DetailIOSNoteTopBar(
     onNavigateBack: () -> Unit,
     onExportAudio: () -> Unit,
     onImportClick: () -> Unit,
+    onImportVideoClick: () -> Unit,
     onExportTextAsTxt: () -> Unit,
     onExportTextAsPDF: () -> Unit,
     onShare: () -> Unit
@@ -180,6 +211,7 @@ fun DetailIOSNoteTopBar(
             DetailDropDownMenu(
                 onExportAudio = onExportAudio,
                 onImportClick = onImportClick,
+                onImportVideoClick = onImportVideoClick,
                 onExportTextAsTxt = onExportTextAsTxt,
                 onExportTextAsPDF = onExportTextAsPDF
             )
@@ -195,6 +227,7 @@ fun DetailIOSNoteTopBar(
 fun DetailDropDownMenu(
     onExportAudio: () -> Unit,
     onImportClick: () -> Unit = {},
+    onImportVideoClick: () -> Unit = {},
     onExportTextAsTxt: () -> Unit,
     onExportTextAsPDF: () -> Unit
 ) {
@@ -219,6 +252,15 @@ fun DetailDropDownMenu(
                 }
             ) {
                 Text(stringResource(Res.string.top_bar_import_audio))
+            }
+
+            DropdownMenuItem(
+                onClick = {
+                    dropdownExpanded = false
+                    onImportVideoClick()
+                }
+            ) {
+                Text(stringResource(Res.string.top_bar_import_video))
             }
 
             DropdownMenuItem(
