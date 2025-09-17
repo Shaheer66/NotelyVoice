@@ -58,7 +58,6 @@ import org.jetbrains.compose.resources.stringResource
 
 val languageCodeMap = mapOf(
     "en" to "English",
-    "auto" to "Auto detect",
     "ar" to "Arabic",
     "ca" to "Catalan",
     "zh" to "Chinese",
@@ -67,6 +66,7 @@ val languageCodeMap = mapOf(
     "fr" to "French",
     "gl" to "Galician",
     "de" to "German",
+    "hi" to "Hindi",
     "id" to "Indonesian",
     "it" to "Italian",
     "ja" to "Japanese",
@@ -83,6 +83,7 @@ val languageCodeMap = mapOf(
     "tr" to "Turkish",
     "uk" to "Ukrainian",
     "vi" to "Vietnamese",
+    "auto" to "Auto detect (less accurate)"
 )
 
 @Composable

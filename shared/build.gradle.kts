@@ -106,6 +106,14 @@ kotlin {
         compilations.all {
             compilerOptions.configure {
                 freeCompilerArgs.add("-Xexpected-actual-classes")
+                // For deterministic builds
+                freeCompilerArgs.add("-Xjsr305=strict")
+                freeCompilerArgs.add("-Xno-param-assertions")
+                freeCompilerArgs.add("-Xno-call-assertions")
+                freeCompilerArgs.add("-Xno-receiver-assertions")
+                freeCompilerArgs.add("-Xno-optimize")
+                freeCompilerArgs.add("-Xassertions=jvm")
+                freeCompilerArgs.add("-Xuse-deterministic-jar-order")
             }
         }
     }
@@ -146,11 +154,38 @@ kotlin {
         }
     }
 }
+
+fun getSourceDateEpoch(): String {
+    val sourceEpoch = System.getenv("SOURCE_DATE_EPOCH")
+    if (sourceEpoch != null) {
+        return sourceEpoch
+    }
+
+    // Fallback to git commit timestamp
+    try {
+        val gitTimestamp = providers.exec {
+            commandLine("git", "show", "-s", "--format=%ct", "HEAD")
+        }.standardOutput.asText.get().trim()
+        return gitTimestamp
+    } catch (e: Exception) {
+        println("Warning: Could not get git timestamp: ${e.message}")
+        return "1640995200"
+    }
+}
+
 compose.resources {
     publicResClass = true
     packageOfResClass = "com.module.notelycompose.resources"
     generateResClass = always
 }
+
+tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
+    doFirst {
+        System.setProperty("kotlin.collections.hash.seed", "0")
+        System.setProperty("java.util.HashMap.randomSeed", "0")
+    }
+}
+
 sqldelight {
     database("NoteDatabase") {
         packageName = "com.module.notelycompose.database"
@@ -169,8 +204,8 @@ android {
         applicationId = "com.module.notelycompose.android"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 19
-        versionName = "1.1.8"
+        versionCode = 21
+        versionName = "1.2.0"
     }
     buildFeatures {
         compose = true
@@ -197,6 +232,7 @@ android {
             excludes += "META-INF/LICENSE*"
             excludes += "META-INF/NOTICE*"
             excludes += "META-INF/*.version"
+            excludes += "assets/composeResources/com.module.notelycompose.resources/strings.xml"
         }
 
         // Force deterministic file ordering
@@ -215,13 +251,17 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             isDebuggable = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
             // uncomment to run on release for testing
             // signingConfig = signingConfigs.getByName("debug")
+
+            // For reproducible builds
+            buildConfigField("String", "BUILD_TIME", "\"${getSourceDateEpoch()}\"")
         }
+    }
+    androidResources {
+        // Ensure deterministic resource compilation
+        noCompress.addAll(listOf("tflite", "lite"))
+        generateLocaleConfig = false
     }
     dependenciesInfo {
         // Disables dependency metadata when building APKs.
