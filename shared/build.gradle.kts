@@ -179,13 +179,6 @@ compose.resources {
     generateResClass = always
 }
 
-tasks.matching { it.name.contains("generateComposeResClass") }.configureEach {
-    doFirst {
-        System.setProperty("kotlin.collections.hash.seed", "0")
-        System.setProperty("java.util.HashMap.randomSeed", "0")
-    }
-}
-
 sqldelight {
     database("NoteDatabase") {
         packageName = "com.module.notelycompose.database"
