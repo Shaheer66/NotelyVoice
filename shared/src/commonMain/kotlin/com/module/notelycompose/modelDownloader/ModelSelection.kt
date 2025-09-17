@@ -41,6 +41,7 @@ class ModelSelection(private val preferencesRepository: PreferencesRepository) {
         val defaultLanguage = preferencesRepository.getDefaultTranscriptionLanguage().first()
         return when (defaultLanguage) {
             "hi" -> models[1]
+            "gu" -> models[1]
             else -> models[0]
         }
     }
