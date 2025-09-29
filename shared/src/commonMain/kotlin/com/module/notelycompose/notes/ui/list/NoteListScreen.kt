@@ -100,7 +100,8 @@ fun NoteListScreen(
                     selectedTabIndex = notesListState.selectedTabIndex,
                     onFilterTabItemClicked = { titleIndex ->
                         viewModel.onProcessIntent(NoteListIntent.OnFilterNote(titleIndex))
-                    }
+                    },
+                    allSizeStr = notesListState.allNotesSizeStr
                 )
                 NoteList(
                     noteList = viewModel.onGetUiState(notesListState),
