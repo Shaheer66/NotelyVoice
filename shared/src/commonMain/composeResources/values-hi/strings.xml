@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">अधिक विकल्प</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">सभी</string>
+    <string name="date_tab_bar_all">सभी %1$s</string>
     <string name="date_tab_bar_starred">तारांकित</string>
     <string name="date_tab_bar_voices">आवाजें</string>
     <string name="date_tab_bar_recent">हाल ही के</string>

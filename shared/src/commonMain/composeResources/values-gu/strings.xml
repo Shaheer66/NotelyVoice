@@ -48,7 +48,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">વધુ વિકલ્પો</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">બધું</string>
+    <string name="date_tab_bar_all">બધું %1$s</string>
     <string name="date_tab_bar_starred">સ્ટાર કર્યું</string>
     <string name="date_tab_bar_voices">અવાજો</string>
     <string name="date_tab_bar_recent">તાજેતરનું</string>

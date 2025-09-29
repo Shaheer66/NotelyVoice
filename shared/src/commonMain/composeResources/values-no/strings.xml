@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">Flere alternativer</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">Alle</string>
+    <string name="date_tab_bar_all">Alle %1$s</string>
     <string name="date_tab_bar_starred">Stjernemerket</string>
     <string name="date_tab_bar_voices">Stemmer</string>
     <string name="date_tab_bar_recent">Nylige</string>

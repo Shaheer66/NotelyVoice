@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">Altre opzioni</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">Tutte</string>
+    <string name="date_tab_bar_all">Tutte %1$s</string>
     <string name="date_tab_bar_starred">Preferite</string>
     <string name="date_tab_bar_voices">Voci</string>
     <string name="date_tab_bar_recent">Recenti</string>

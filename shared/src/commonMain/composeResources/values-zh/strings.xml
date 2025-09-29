@@ -48,7 +48,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">更多选项</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">全部</string>
+    <string name="date_tab_bar_all">全部 %1$s</string>
     <string name="date_tab_bar_starred">已加星标</string>
     <string name="date_tab_bar_voices">语音</string>
     <string name="date_tab_bar_recent">最近</string>

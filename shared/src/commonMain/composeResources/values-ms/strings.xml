@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">Lagi pilihan</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">Semua</string>
+    <string name="date_tab_bar_all">Semua %1$s</string>
     <string name="date_tab_bar_starred">Berbintang</string>
     <string name="date_tab_bar_voices">Suara</string>
     <string name="date_tab_bar_recent">Terkini</string>

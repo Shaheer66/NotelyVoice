@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">その他のオプション</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">すべて</string>
+    <string name="date_tab_bar_all">すべて %1$s</string>
     <string name="date_tab_bar_starred">スター付き</string>
     <string name="date_tab_bar_voices">音声</string>
     <string name="date_tab_bar_recent">最近</string>
