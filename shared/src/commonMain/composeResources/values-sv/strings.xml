@@ -49,7 +49,7 @@
     <!-- Date Selection -->
     <string name="note_detail_more_options">Fler alternativ</string>
     <!-- Date Tab Bar -->
-    <string name="date_tab_bar_all">Alla</string>
+    <string name="date_tab_bar_all">Alla %1$s</string>
     <string name="date_tab_bar_starred">Stjärnmarkerade</string>
     <string name="date_tab_bar_voices">Röster</string>
     <string name="date_tab_bar_recent">Senaste</string>
