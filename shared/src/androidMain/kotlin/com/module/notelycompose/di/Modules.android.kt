@@ -8,6 +8,8 @@ import com.module.notelycompose.audio.domain.AudioRecorderInteractorImpl
 import com.module.notelycompose.audio.domain.SaveAudioNoteInteractor
 import com.module.notelycompose.audio.domain.SaveAudioNoteInteractorImpl
 import com.module.notelycompose.database.NoteDatabase
+import com.module.notelycompose.export.domain.ExportSelectionInteractor
+import com.module.notelycompose.export.domain.ExportSelectionInteractorImpl
 import com.module.notelycompose.platform.AndroidPlatform
 import com.module.notelycompose.platform.BrowserLauncher
 import com.module.notelycompose.platform.Downloader
@@ -63,4 +65,5 @@ actual val platformModule = module {
             get()
         )
     }
+    single<ExportSelectionInteractor> { ExportSelectionInteractorImpl() }
 }
