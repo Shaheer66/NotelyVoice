@@ -159,7 +159,9 @@ fun NoteListScreen(
                     exportMd
                 )
             },
-            onDismiss = { showExportNotesConfirmDialog = false }
+            onDismiss = {
+                showExportNotesConfirmDialog = false
+            }
         )
     }
 
