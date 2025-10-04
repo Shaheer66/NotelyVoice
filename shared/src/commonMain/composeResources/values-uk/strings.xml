@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Експортувати текст як .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Підтвердження</string>
-    <string name="confirmation_text">Ви хочете видалити нотатку?</string>
-    <string name="recording_confirmation_text">Ви впевнені, що хочете видалити запис?</string>
+    <string name="confirmation_text">Ви хочете видалити нотатку? Цю дію неможливо скасувати</string>
+    <string name="recording_confirmation_text">Ви впевнені, що хочете видалити запис? Цю дію неможливо скасувати</string>
     <string name="confirmation_delete">Видалити</string>
     <string name="confirmation_cancel">Скасувати</string>
     <string name="recording_replace_error">У вас уже є збережений запис. Створення нового запису замінить його назавжди. Ви хочете продовжити?</string>
@@ -164,4 +164,27 @@
     <string name="accessibility_desc">Використовуйте повзунок, щоб встановити бажаний розмір тексту для редактора нотаток, налаштуйте свій досвід.</string>
     <string name="accessibility_a">А</string>
     <string name="accessibility_default">За замовчуванням 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Експорт не вдався</string>
+    <string name="batch_export_options">Параметри експорту</string>
+    <string name="batch_export_select_formats">Виберіть формати для експорту:</string>
+    <string name="batch_export_audio_files">Експортувати аудіофайли</string>
+    <string name="batch_export_txt_files">Експортувати текст як файли TXT</string>
+    <string name="batch_export_select_at_least_one_option">Будь ласка, виберіть принаймні один варіант</string>
+    <string name="batch_export_title">Експорт</string>
+    <string name="batch_export_no_selection_made">Вибір не зроблено, будь ласка, виберіть елемент для експорту</string>
+    <string name="batch_export_settings_title">Експорт кількох приміток</string>
+    <string name="batch_export_settings_description">ДОВГО НАТИСНІТЬ на будь-яку картку примітки, щоб показати параметри експорту у списку приміток</string>
+    <string name="batch_export_settings_how_to">Як експортувати кілька приміток</string>
+    <string name="batch_export_settings_how_to_description_1">ДОВГО НАТИСНІТЬ на будь-яку картку примітки для входу в режим вибору, потім експортуйте кілька приміток одночасно</string>
+    <string name="batch_export_settings_how_to_description_2">Довго натисніть примітку</string>
+    <string name="batch_export_settings_how_to_description_3">Виберіть примітки для експорту</string>
+    <string name="batch_export_settings_how_to_description_4">Натисніть кнопку експорту внизу</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">сталася помилка під час експорту</string>
+    <!-- Import -->
+    <string name="import_failed_title">Імпорт не вдався</string>
 </resources>

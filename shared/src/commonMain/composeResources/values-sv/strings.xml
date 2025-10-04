@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Exportera text som .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Bekräfta</string>
-    <string name="confirmation_text">Vill du ta bort anteckningen?</string>
-    <string name="recording_confirmation_text">Är du säker på att du vill ta bort inspelningen?</string>
+    <string name="confirmation_text">Vill du radera anteckningen? Denna åtgärd kan inte ångras</string>
+    <string name="recording_confirmation_text">Är du säker på att du vill radera inspelningen? Denna åtgärd kan inte ångras</string>
     <string name="confirmation_delete">Ta bort</string>
     <string name="confirmation_cancel">Avbryt</string>
     <string name="recording_replace_error">Du har redan en sparad inspelning. Att skapa en ny inspelning kommer att ersätta den permanent. Vill du fortsätta?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Använd reglaget för att ställa in önskad skrivtextstorlek för anteckningsredigeraren, anpassa din upplevelse.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Standard är 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Export misslyckades</string>
+    <string name="batch_export_options">Exportalternativ</string>
+    <string name="batch_export_select_formats">Välj de format du vill exportera:</string>
+    <string name="batch_export_audio_files">Exportera ljudfiler</string>
+    <string name="batch_export_txt_files">Exportera text som TXT-filer</string>
+    <string name="batch_export_select_at_least_one_option">Välj minst ett alternativ</string>
+    <string name="batch_export_title">Exportera</string>
+    <string name="batch_export_no_selection_made">Inget val gjort, välj ett objekt att exportera</string>
+    <string name="batch_export_settings_title">Exportera flera anteckningar</string>
+    <string name="batch_export_settings_description">TRYCK LÄNGE på valfritt anteckningskort för att visa exportalternativ i anteckningslistan</string>
+    <string name="batch_export_settings_how_to">Hur man exporterar flera anteckningar</string>
+    <string name="batch_export_settings_how_to_description_1">TRYCK LÄNGE på valfritt anteckningskort för att gå in i valläge och exportera sedan flera anteckningar på en gång</string>
+    <string name="batch_export_settings_how_to_description_2">Tryck länge på anteckning</string>
+    <string name="batch_export_settings_how_to_description_3">Välj anteckningar att exportera</string>
+    <string name="batch_export_settings_how_to_description_4">Tryck på exportknappen längst ner</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">ett fel inträffade vid export</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import misslyckades</string>
 </resources>

@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Exportar texto como .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Confirmar</string>
-    <string name="confirmation_text">Queres eliminar a nota?</string>
-    <string name="recording_confirmation_text">Estás seguro de que queres eliminar a gravación?</string>
+    <string name="confirmation_text">Queres eliminar a nota? Esta acción non se pode desfacer</string>
+    <string name="recording_confirmation_text">Estás seguro de que queres eliminar a gravación? Esta acción non se pode desfacer</string>
     <string name="confirmation_delete">Eliminar</string>
     <string name="confirmation_cancel">Cancelar</string>
     <string name="recording_replace_error">Xa tes unha gravación gardada. Crear unha nova gravación substituiraa permanentemente. Queres continuar?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Usa o deslizador para establecer o tamaño preferido do corpo de escritura para o editor de notas, personaliza a túa experiencia.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">O predeterminado é 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">Aceptar</string>
+    <string name="batch_export_failed">Exportación fallida</string>
+    <string name="batch_export_options">Opcións de exportación</string>
+    <string name="batch_export_select_formats">Selecciona os formatos que desexas exportar:</string>
+    <string name="batch_export_audio_files">Exportar ficheiros de audio</string>
+    <string name="batch_export_txt_files">Exportar texto como ficheiros TXT</string>
+    <string name="batch_export_select_at_least_one_option">Por favor selecciona polo menos unha opción</string>
+    <string name="batch_export_title">Exportar</string>
+    <string name="batch_export_no_selection_made">Non se realizou ningunha selección, por favor selecciona un elemento para exportar</string>
+    <string name="batch_export_settings_title">Exportar múltiples notas</string>
+    <string name="batch_export_settings_description">MANTÉN PREMIDA calquera tarxeta de nota para mostrar as opcións de exportación na lista de notas</string>
+    <string name="batch_export_settings_how_to">Como exportar múltiples notas</string>
+    <string name="batch_export_settings_how_to_description_1">MANTÉN PREMIDA calquera tarxeta de nota para entrar en modo de selección e logo exporta múltiples notas á vez</string>
+    <string name="batch_export_settings_how_to_description_2">Mantén premida a nota</string>
+    <string name="batch_export_settings_how_to_description_3">Selecciona as notas para exportar</string>
+    <string name="batch_export_settings_how_to_description_4">Toca o botón de exportación na parte inferior</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">produciuse un erro durante a exportación</string>
+    <!-- Import -->
+    <string name="import_failed_title">Importación fallida</string>
 </resources>

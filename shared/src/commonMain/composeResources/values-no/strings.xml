@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Eksporter tekst som .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Bekreft</string>
-    <string name="confirmation_text">Vil du slette notatet?</string>
-    <string name="recording_confirmation_text">Er du sikker på at du vil slette opptaket?</string>
+    <string name="confirmation_text">Vil du slette notatet? Denne handlingen kan ikke angres</string>
+    <string name="recording_confirmation_text">Er du sikker på at du vil slette opptaket? Denne handlingen kan ikke angres</string>
     <string name="confirmation_delete">Slett</string>
     <string name="confirmation_cancel">Avbryt</string>
     <string name="recording_replace_error">Du har allerede et lagret opptak. Å lage et nytt opptak vil erstatte det permanent. Vil du fortsette?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Bruk skyveknappen for å angi foretrukket skrivetekststørrelse for notatredigereren, tilpass opplevelsen din.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Standard er 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Eksport mislyktes</string>
+    <string name="batch_export_options">Eksportalternativer</string>
+    <string name="batch_export_select_formats">Velg formatene du vil eksportere:</string>
+    <string name="batch_export_audio_files">Eksporter lydfiler</string>
+    <string name="batch_export_txt_files">Eksporter tekst som TXT-filer</string>
+    <string name="batch_export_select_at_least_one_option">Vennligst velg minst ett alternativ</string>
+    <string name="batch_export_title">Eksporter</string>
+    <string name="batch_export_no_selection_made">Ingen valg er gjort, vennligst velg et element å eksportere</string>
+    <string name="batch_export_settings_title">Eksporter flere notater</string>
+    <string name="batch_export_settings_description">TRYKK LENGE på et notatkort for å vise eksportalternativer i notatlisten</string>
+    <string name="batch_export_settings_how_to">Hvordan eksportere flere notater</string>
+    <string name="batch_export_settings_how_to_description_1">TRYKK LENGE på et notatkort for å gå inn i valgmodus, og eksporter deretter flere notater samtidig</string>
+    <string name="batch_export_settings_how_to_description_2">Trykk lenge på notat</string>
+    <string name="batch_export_settings_how_to_description_3">Velg notater å eksportere</string>
+    <string name="batch_export_settings_how_to_description_4">Trykk på eksportknappen nederst</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">det oppstod en feil under eksportering</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import mislyktes</string>
 </resources>

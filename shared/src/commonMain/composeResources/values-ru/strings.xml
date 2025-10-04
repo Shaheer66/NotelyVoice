@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Экспортировать как текстовый файл</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Подтвердить</string>
-    <string name="confirmation_text">Вы хотите удалить заметку?</string>
-    <string name="recording_confirmation_text">Вы уверены, что хотите удалить запись?</string>
+    <string name="confirmation_text">Вы хотите удалить заметку? Это действие нельзя отменить</string>
+    <string name="recording_confirmation_text">Вы уверены, что хотите удалить запись? Это действие нельзя отменить</string>
     <string name="confirmation_delete">Удалить</string>
     <string name="confirmation_cancel">Отменить</string>
     <string name="recording_replace_error">У вас уже есть сохраненная запись. Создание новой записи навсегда заменит ее. Вы хотите продолжить?</string>
@@ -164,4 +164,27 @@
     <string name="accessibility_desc">Используйте ползунок для установки предпочитаемого размера основного текста для редактора заметок, настройте свой опыт.</string>
     <string name="accessibility_a">А</string>
     <string name="accessibility_default">По умолчанию 14 пт</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">ОК</string>
+    <string name="batch_export_failed">Экспорт не удался</string>
+    <string name="batch_export_options">Параметры экспорта</string>
+    <string name="batch_export_select_formats">Выберите форматы для экспорта:</string>
+    <string name="batch_export_audio_files">Экспортировать аудиофайлы</string>
+    <string name="batch_export_txt_files">Экспортировать текст как файлы TXT</string>
+    <string name="batch_export_select_at_least_one_option">Пожалуйста, выберите хотя бы один вариант</string>
+    <string name="batch_export_title">Экспорт</string>
+    <string name="batch_export_no_selection_made">Выбор не сделан, пожалуйста, выберите элемент для экспорта</string>
+    <string name="batch_export_settings_title">Экспорт нескольких заметок</string>
+    <string name="batch_export_settings_description">ДОЛГО НАЖМИТЕ на любую карточку заметки, чтобы показать параметры экспорта в списке заметок</string>
+    <string name="batch_export_settings_how_to">Как экспортировать несколько заметок</string>
+    <string name="batch_export_settings_how_to_description_1">ДОЛГО НАЖМИТЕ на любую карточку заметки для входа в режим выбора, затем экспортируйте несколько заметок одновременно</string>
+    <string name="batch_export_settings_how_to_description_2">Долго нажмите на заметку</string>
+    <string name="batch_export_settings_how_to_description_3">Выберите заметки для экспорта</string>
+    <string name="batch_export_settings_how_to_description_4">Нажмите кнопку экспорта внизу</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">произошла ошибка при экспорте</string>
+    <!-- Import -->
+    <string name="import_failed_title">Импорт не удался</string>
 </resources>

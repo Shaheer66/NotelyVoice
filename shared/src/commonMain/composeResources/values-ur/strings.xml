@@ -15,8 +15,8 @@
     <string name="top_bar_export_as_txt">ٹیکسٹ فائل کے طور پر ایکسپورٹ کریں</string>
     <!-- Delete Dialog -->
     <string name="confirmation">تصدیق</string>
-    <string name="confirmation_text">کیا آپ نوٹ کو ڈیلیٹ کرنا چاہتے ہیں؟</string>
-    <string name="recording_confirmation_text">کیا آپ واقعی ریکارڈنگ کو ڈیلیٹ کرنا چاہتے ہیں؟</string>
+    <string name="confirmation_text">کیا آپ نوٹ کو حذف کرنا چاہتے ہیں؟ اس عمل کو واپس نہیں کیا جا سکتا</string>
+    <string name="recording_confirmation_text">کیا آپ واقعی ریکارڈنگ کو حذف کرنا چاہتے ہیں؟ اس عمل کو واپس نہیں کیا جا سکتا</string>
     <string name="confirmation_delete">ڈیلیٹ کریں</string>
     <string name="confirmation_cancel">منسوخ</string>
     <string name="recording_replace_error">آپ کے پاس پہلے سے ایک ریکارڈنگ محفوظ ہے۔ نئی ریکارڈنگ بنانے سے یہ مستقل طور پر تبدیل ہو جائے گی۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
@@ -158,4 +158,27 @@
     <string name="accessibility_desc">نوٹس ایڈیٹر کے لیے پسندیدہ متن کا سائز مقرر کرنے کے لیے سلائیڈر استعمال کریں، اپنے تجربے کو اپنی مرضی کے مطابق بنائیں۔</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">ڈیفالٹ 14 pt ہے</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">ٹھیک ہے</string>
+    <string name="batch_export_failed">برآمد ناکام</string>
+    <string name="batch_export_options">برآمد کے اختیارات</string>
+    <string name="batch_export_select_formats">وہ فارمیٹس منتخب کریں جنہیں آپ برآمد کرنا چاہتے ہیں:</string>
+    <string name="batch_export_audio_files">آڈیو فائلیں برآمد کریں</string>
+    <string name="batch_export_txt_files">متن کو TXT فائلوں کے طور پر برآمد کریں</string>
+    <string name="batch_export_select_at_least_one_option">براہ کرم کم از کم ایک اختیار منتخب کریں</string>
+    <string name="batch_export_title">برآمد</string>
+    <string name="batch_export_no_selection_made">کوئی انتخاب نہیں کیا گیا، براہ کرم برآمد کرنے کے لیے ایک آئٹم منتخب کریں</string>
+    <string name="batch_export_settings_title">متعدد نوٹس برآمد کریں</string>
+    <string name="batch_export_settings_description">نوٹس کی فہرست میں برآمد کے اختیارات دکھانے کے لیے کسی بھی نوٹ کارڈ کو لمبا دبائیں</string>
+    <string name="batch_export_settings_how_to">متعدد نوٹس کو کیسے برآمد کریں</string>
+    <string name="batch_export_settings_how_to_description_1">انتخاب موڈ میں داخل ہونے کے لیے کسی بھی نوٹ کارڈ کو لمبا دبائیں، پھر ایک ساتھ متعدد نوٹس برآمد کریں</string>
+    <string name="batch_export_settings_how_to_description_2">نوٹ کو لمبا دبائیں</string>
+    <string name="batch_export_settings_how_to_description_3">برآمد کرنے کے لیے نوٹس منتخب کریں</string>
+    <string name="batch_export_settings_how_to_description_4">نیچے برآمد بٹن پر ٹیپ کریں</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">برآمد کرتے وقت خرابی پیش آئی</string>
+    <!-- Import -->
+    <string name="import_failed_title">درآمد ناکام</string>
 </resources>

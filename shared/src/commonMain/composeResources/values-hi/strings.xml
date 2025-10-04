@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">टेक्स्ट फ़ाइल के रूप में निर्यात करेंं</string>
     <!-- Delete Dialog -->
     <string name="confirmation">पुष्टि करें</string>
-    <string name="confirmation_text">क्या आप नोट को डिलीट करना चाहते हैं?</string>
-    <string name="recording_confirmation_text">क्या आप वाकई रिकॉर्डिंग को डिलीट करना चाहते हैं?</string>
+    <string name="confirmation_text">क्या आप नोट को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता</string>
+    <string name="recording_confirmation_text">क्या आप वाकई रिकॉर्डिंग को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता</string>
     <string name="confirmation_delete">डिलीट करें</string>
     <string name="confirmation_cancel">रद्द करें</string>
     <string name="recording_replace_error">आपके पास पहले से एक रिकॉर्डिंग सेव है। नई रिकॉर्डिंग बनाने से यह स्थायी रूप से बदल जाएगी। क्या आप जारी रखना चाहते हैं?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">नोट्स एडिटर के लिए पसंदीदा लेखन मुख्य साइज़ सेट करने के लिए स्लाइडर का उपयोग करें, अपने अनुभव को कस्टमाइज़ करें।</string>
     <string name="accessibility_a">अ</string>
     <string name="accessibility_default">डिफ़ॉल्ट 14 pt है</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">ठीक है</string>
+    <string name="batch_export_failed">निर्यात विफल</string>
+    <string name="batch_export_options">निर्यात विकल्प</string>
+    <string name="batch_export_select_formats">वे प्रारूप चुनें जिन्हें आप निर्यात करना चाहते हैं:</string>
+    <string name="batch_export_audio_files">ऑडियो फाइलें निर्यात करें</string>
+    <string name="batch_export_txt_files">टेक्स्ट को TXT फाइलों के रूप में निर्यात करें</string>
+    <string name="batch_export_select_at_least_one_option">कृपया कम से कम एक विकल्प चुनें</string>
+    <string name="batch_export_title">निर्यात</string>
+    <string name="batch_export_no_selection_made">कोई चयन नहीं किया गया, कृपया निर्यात करने के लिए एक आइटम चुनें</string>
+    <string name="batch_export_settings_title">एकाधिक नोट्स निर्यात करें</string>
+    <string name="batch_export_settings_description">नोट्स सूची में निर्यात विकल्प दिखाने के लिए किसी भी नोट कार्ड को लंबे समय तक दबाएं</string>
+    <string name="batch_export_settings_how_to">एकाधिक नोट्स कैसे निर्यात करें</string>
+    <string name="batch_export_settings_how_to_description_1">चयन मोड में प्रवेश करने के लिए किसी भी नोट कार्ड को लंबे समय तक दबाएं, फिर एक साथ एकाधिक नोट्स निर्यात करें</string>
+    <string name="batch_export_settings_how_to_description_2">नोट को लंबे समय तक दबाएं</string>
+    <string name="batch_export_settings_how_to_description_3">निर्यात के लिए नोट्स चुनें</string>
+    <string name="batch_export_settings_how_to_description_4">नीचे निर्यात बटन पर टैप करें</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">निर्यात करते समय त्रुटि हुई</string>
+    <!-- Import -->
+    <string name="import_failed_title">आयात विफल</string>
 </resources>

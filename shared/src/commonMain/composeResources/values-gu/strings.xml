@@ -15,8 +15,8 @@
     <string name="top_bar_export_as_txt">ટેક્સ્ટફાઇલતરીકેએક્સપોર્ટકરો</string>
     <!-- Delete Dialog -->
     <string name="confirmation">પુષ્ટિ</string>
-    <string name="confirmation_text">શુંતમેનોટડિલીટકરવામાંગચ્છો?</string>
-    <string name="recording_confirmation_text">શુંતમેખરેખરીકોર્ડિંગડિલીટકરવામાંગચ્છો?</string>
+    <string name="confirmation_text">શું તમે નોંધ કાઢી નાખવા માંગો છો? આ ક્રિયા પાછી લઈ શકાતી નથી</string>
+    <string name="recording_confirmation_text">શું તમે ખરેખર રેકોર્ડિંગ કાઢી નાખવા માંગો છો? આ ક્રિયા પાછી લઈ શકાતી નથી</string>
     <string name="confirmation_delete">ડિલીટકરો</string>
     <string name="confirmation_cancel">રદ કરો</string>
     <string name="recording_replace_error">તમારીપાસેપહેલેથીએકરીકોર્ડિંગસાચવેલીછે.નવીરીકોર્ડિંગબનાવવાથીતેકાયમીરીતેબદલાઇજશે.શુંતમેચાલુરાખવામાંગચ્છો?</string>
@@ -158,4 +158,27 @@
     <string name="accessibility_desc">નોટ્સ એડિટર માટે પસંદીદા લેખન બોડી સાઇઝ સેટ કરવા માટે સ્લાઇડરનો ઉપયોગ કરો, તમારા અનુભવને કસ્ટમાઇઝ કરો.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">ડિફોલ્ટ 14 pt છે</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">ઠીક છે</string>
+    <string name="batch_export_failed">નિકાસ નિષ્ફળ</string>
+    <string name="batch_export_options">નિકાસ વિકલ્પો</string>
+    <string name="batch_export_select_formats">તમે જે ફોર્મેટ્સ નિકાસ કરવા માંગો છો તે પસંદ કરો:</string>
+    <string name="batch_export_audio_files">ઓડિયો ફાઇલો નિકાસ કરો</string>
+    <string name="batch_export_txt_files">TXT ફાઇલો તરીકે ટેક્સ્ટ નિકાસ કરો</string>
+    <string name="batch_export_select_at_least_one_option">કૃપા કરીને ઓછામાં ઓછો એક વિકલ્પ પસંદ કરો</string>
+    <string name="batch_export_title">નિકાસ</string>
+    <string name="batch_export_no_selection_made">કોઈ પસંદગી કરવામાં આવી નથી, કૃપા કરીને નિકાસ કરવા માટે એક આઇટમ પસંદ કરો</string>
+    <string name="batch_export_settings_title">બહુવિધ નોંધો નિકાસ કરો</string>
+    <string name="batch_export_settings_description">નોંધોની સૂચિમાં નિકાસ વિકલ્પો બતાવવા માટે કોઈપણ નોંધ કાર્ડને લાંબો દબાવો</string>
+    <string name="batch_export_settings_how_to">બહુવિધ નોંધો કેવી રીતે નિકાસ કરવી</string>
+    <string name="batch_export_settings_how_to_description_1">પસંદગી મોડમાં પ્રવેશ કરવા માટે કોઈપણ નોંધ કાર્ડને લાંબો દબાવો, પછી એક સાથે બહુવિધ નોંધો નિકાસ કરો</string>
+    <string name="batch_export_settings_how_to_description_2">નોંધને લાંબો દબાવો</string>
+    <string name="batch_export_settings_how_to_description_3">નિકાસ કરવા માટે નોંધો પસંદ કરો</string>
+    <string name="batch_export_settings_how_to_description_4">નીચે નિકાસ બટન પર ટેપ કરો</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">નિકાસ દરમિયાન ભૂલ આવી</string>
+    <!-- Import -->
+    <string name="import_failed_title">આયાત નિષ્ફળ</string>
 </resources>

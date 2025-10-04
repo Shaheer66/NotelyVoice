@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">تصدير كملف نصي</string>
     <!-- Delete Dialog -->
     <string name="confirmation">تأكيد</string>
-    <string name="confirmation_text">هل تريد حذف الملاحظة؟</string>
-    <string name="recording_confirmation_text">هل أنت متأكد من أنك تريد حذف التسجيل؟</string>
+    <string name="confirmation_text">هل تريد حذف الملاحظة؟ لا يمكن التراجع عن هذا الإجراء</string>
+    <string name="recording_confirmation_text">هل أنت متأكد من حذف التسجيل؟ لا يمكن التراجع عن هذا الإجراء</string>
     <string name="confirmation_delete">حذف</string>
     <string name="confirmation_cancel">إلغاء</string>
     <string name="recording_replace_error">لديك تسجيل محفوظ بالفعل. إنشاء تسجيل جديد سيحل محله بشكل دائم. هل تريد المتابعة؟</string>
@@ -166,4 +166,27 @@
     <string name="accessibility_desc">استخدم شريط التمرير لتعيين حجم نص الكتابة المفضل لمحرر الملاحظات، وخصص تجربتك.</string>
     <string name="accessibility_a">أ</string>
     <string name="accessibility_default">الافتراضي هو 14 نقطة</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">موافق</string>
+    <string name="batch_export_failed">فشل التصدير</string>
+    <string name="batch_export_options">خيارات التصدير</string>
+    <string name="batch_export_select_formats">اختر التنسيقات التي تريد تصديرها:</string>
+    <string name="batch_export_audio_files">تصدير الملفات الصوتية</string>
+    <string name="batch_export_txt_files">تصدير النص كملفات TXT</string>
+    <string name="batch_export_select_at_least_one_option">الرجاء تحديد خيار واحد على الأقل</string>
+    <string name="batch_export_title">تصدير</string>
+    <string name="batch_export_no_selection_made">لم يتم إجراء تحديد، يرجى تحديد عنصر للتصدير</string>
+    <string name="batch_export_settings_title">تصدير ملاحظات متعددة</string>
+    <string name="batch_export_settings_description">اضغط لفترة طويلة على أي بطاقة ملاحظة لإظهار خيارات التصدير في قائمة الملاحظات</string>
+    <string name="batch_export_settings_how_to">كيفية تصدير ملاحظات متعددة</string>
+    <string name="batch_export_settings_how_to_description_1">اضغط لفترة طويلة على أي بطاقة ملاحظة للدخول في وضع التحديد، ثم قم بتصدير ملاحظات متعددة دفعة واحدة</string>
+    <string name="batch_export_settings_how_to_description_2">اضغط لفترة طويلة على الملاحظة</string>
+    <string name="batch_export_settings_how_to_description_3">حدد الملاحظات للتصدير</string>
+    <string name="batch_export_settings_how_to_description_4">انقر على زر التصدير في الأسفل</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">حدث خطأ أثناء التصدير</string>
+    <!-- Import -->
+    <string name="import_failed_title">การนำเข้าล้มเหลว</string>
 </resources>

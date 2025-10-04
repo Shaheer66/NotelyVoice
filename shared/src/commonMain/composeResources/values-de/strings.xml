@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Text als .txt exportieren</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Bestätigen</string>
-    <string name="confirmation_text">Möchten Sie die Notiz löschen?</string>
-    <string name="recording_confirmation_text">Sind Sie sicher, dass Sie die Aufnahme löschen möchten?</string>
+    <string name="confirmation_text">¿Quieres eliminar la nota? Esta acción no se puede deshacer</string>
+    <string name="recording_confirmation_text">¿Estás seguro de que quieres eliminar la grabación? Esta acción no se puede deshacer</string>
     <string name="confirmation_delete">Löschen</string>
     <string name="confirmation_cancel">Abbrechen</string>
     <string name="recording_replace_error">Sie haben bereits eine Aufnahme gespeichert. Eine neue Aufnahme zu erstellen wird diese dauerhaft ersetzen. Möchten Sie fortfahren?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Verwenden Sie den Schieberegler, um die bevorzugte Schriftgröße für den Notizen-Editor einzustellen und Ihre Erfahrung anzupassen.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Standard ist 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Export fehlgeschlagen</string>
+    <string name="batch_export_options">Exportoptionen</string>
+    <string name="batch_export_select_formats">Wählen Sie die Formate aus, die Sie exportieren möchten:</string>
+    <string name="batch_export_audio_files">Audiodateien exportieren</string>
+    <string name="batch_export_txt_files">Text als TXT-Dateien exportieren</string>
+    <string name="batch_export_select_at_least_one_option">Bitte wählen Sie mindestens eine Option</string>
+    <string name="batch_export_title">Exportieren</string>
+    <string name="batch_export_no_selection_made">Keine Auswahl getroffen, bitte wählen Sie ein Element zum Exportieren</string>
+    <string name="batch_export_settings_title">Mehrere Notizen exportieren</string>
+    <string name="batch_export_settings_description">LANG DRÜCKEN Sie auf eine beliebige Notizkarte, um Exportoptionen in der Notizenliste anzuzeigen</string>
+    <string name="batch_export_settings_how_to">So exportieren Sie mehrere Notizen</string>
+    <string name="batch_export_settings_how_to_description_1">LANG DRÜCKEN Sie auf eine beliebige Notizkarte, um den Auswahlmodus zu aktivieren, und exportieren Sie dann mehrere Notizen gleichzeitig</string>
+    <string name="batch_export_settings_how_to_description_2">Notiz lang drücken</string>
+    <string name="batch_export_settings_how_to_description_3">Notizen zum Exportieren auswählen</string>
+    <string name="batch_export_settings_how_to_description_4">Tippen Sie auf die Exportschaltfläche unten</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">Fehler beim Exportieren aufgetreten</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import fehlgeschlagen</string>
 </resources>

@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Xuất văn bản dạng .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Xác nhận</string>
-    <string name="confirmation_text">Bạn có muốn xóa ghi chú không?</string>
-    <string name="recording_confirmation_text">Bạn có chắc chắn muốn xóa bản ghi âm không?</string>
+    <string name="confirmation_text">Bạn có muốn xóa Ghi chú không? Hành động này không thể hoàn tác</string>
+    <string name="recording_confirmation_text">Bạn có chắc chắn muốn xóa bản ghi âm không? Hành động này không thể hoàn tác</string>
     <string name="confirmation_delete">Xóa</string>
     <string name="confirmation_cancel">Hủy</string>
     <string name="recording_replace_error">Bạn đã có một bản ghi âm được lưu. Tạo bản ghi âm mới sẽ thay thế nó vĩnh viễn. Bạn có muốn tiếp tục không?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Sử dụng thanh trượt để đặt kích thước văn bản viết ưa thích cho trình chỉnh sửa ghi chú, tùy chỉnh trải nghiệm của bạn.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Mặc định là 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Xuất Thất Bại</string>
+    <string name="batch_export_options">Tùy Chọn Xuất</string>
+    <string name="batch_export_select_formats">Chọn các định dạng bạn muốn xuất:</string>
+    <string name="batch_export_audio_files">Xuất tệp âm thanh</string>
+    <string name="batch_export_txt_files">Xuất văn bản dưới dạng tệp TXT</string>
+    <string name="batch_export_select_at_least_one_option">Vui lòng chọn ít nhất một tùy chọn</string>
+    <string name="batch_export_title">Xuất</string>
+    <string name="batch_export_no_selection_made">Chưa có lựa chọn nào, vui lòng chọn một mục để xuất</string>
+    <string name="batch_export_settings_title">Xuất nhiều ghi chú</string>
+    <string name="batch_export_settings_description">NHẤN GIỮ bất kỳ thẻ ghi chú nào để hiển thị tùy chọn xuất trong danh sách ghi chú</string>
+    <string name="batch_export_settings_how_to">Cách xuất nhiều ghi chú</string>
+    <string name="batch_export_settings_how_to_description_1">NHẤN GIỮ bất kỳ thẻ ghi chú nào để vào chế độ chọn, sau đó xuất nhiều ghi chú cùng một lúc</string>
+    <string name="batch_export_settings_how_to_description_2">Nhấn giữ ghi chú</string>
+    <string name="batch_export_settings_how_to_description_3">Chọn ghi chú để xuất</string>
+    <string name="batch_export_settings_how_to_description_4">Nhấn vào nút xuất ở phía dưới</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">đã xảy ra lỗi khi xuất</string>
+    <!-- Import -->
+    <string name="import_failed_title">Nhập Thất Bại</string>
 </resources>

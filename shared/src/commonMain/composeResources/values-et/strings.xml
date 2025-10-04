@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Ekspordi tekstifailina</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Kinnita</string>
-    <string name="confirmation_text">Kas sa soovid selle märke kustutada?</string>
-    <string name="recording_confirmation_text">Kas sa oled kindel, et soovid selle salvestise kustutada?</string>
+    <string name="confirmation_text">Kas soovite märkuse kustutada? Seda toimingut ei saa tagasi võtta</string>
+    <string name="recording_confirmation_text">Kas olete kindel, et soovite salvestuse kustutada? Seda toimingut ei saa tagasi võtta</string>
     <string name="confirmation_delete">Kustuta</string>
     <string name="confirmation_cancel">Katkesta</string>
     <string name="recording_replace_error">Sa oled juba ühe salvestise teinud. Uue tegemisel asendatakse too jäädavalt. Kas soovid jätkata?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Kasutades liugurvalijat, vali enda jaoks sobilik põhiteksti suurus.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Vaikimisi suurus on 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Eksport ebaõnnestus</string>
+    <string name="batch_export_options">Ekspordi valikud</string>
+    <string name="batch_export_select_formats">Valige vormingud, mida soovite eksportida:</string>
+    <string name="batch_export_audio_files">Ekspordi helifailid</string>
+    <string name="batch_export_txt_files">Ekspordi tekst TXT-failidena</string>
+    <string name="batch_export_select_at_least_one_option">Palun valige vähemalt üks valik</string>
+    <string name="batch_export_title">Eksport</string>
+    <string name="batch_export_no_selection_made">Valikut ei tehtud, palun valige eksportimiseks üksus</string>
+    <string name="batch_export_settings_title">Ekspordi mitu märkust</string>
+    <string name="batch_export_settings_description">VAJUTAGE PIKALT mis tahes märkuse kaarti, et kuvada ekspordi valikud märkuste loendis</string>
+    <string name="batch_export_settings_how_to">Kuidas eksportida mitut märkust</string>
+    <string name="batch_export_settings_how_to_description_1">VAJUTAGE PIKALT mis tahes märkuse kaarti, et siseneda valikurežiimi, seejärel eksportige mitu märkust korraga</string>
+    <string name="batch_export_settings_how_to_description_2">Vajutage pikalt märkust</string>
+    <string name="batch_export_settings_how_to_description_3">Valige eksportimiseks märkused</string>
+    <string name="batch_export_settings_how_to_description_4">Puudutage ekspordi nuppu all</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">eksportimisel tekkis viga</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import ebaõnnestus</string>
 </resources>
