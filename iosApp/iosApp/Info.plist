@@ -24,6 +24,10 @@
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
+    <key>UISupportsDocumentBrowser</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
 	<key>MinimumOSVersion</key>
 	<string>16.4</string>
 	<key>NSAppTransportSecurity</key>
