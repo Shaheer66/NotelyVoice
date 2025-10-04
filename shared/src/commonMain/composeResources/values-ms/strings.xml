@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Eksport Teks sebagai .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Pengesahan</string>
-    <string name="confirmation_text">Adakah anda ingin memadamkan nota?</string>
-    <string name="recording_confirmation_text">Adakah anda pasti ingin memadamkan rakaman?</string>
+    <string name="confirmation_text">Adakah anda mahu memadamkan Nota? Tindakan ini tidak boleh dibuat asal</string>
+    <string name="recording_confirmation_text">Adakah anda pasti mahu memadamkan rakaman? Tindakan ini tidak boleh dibuat asal</string>
     <string name="confirmation_delete">Padam</string>
     <string name="confirmation_cancel">Batal</string>
     <string name="recording_replace_error">Anda sudah mempunyai rakaman yang disimpan. Mencipta rakaman baharu akan menggantikannya secara kekal. Adakah anda ingin meneruskan?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Gunakan peluncur untuk menetapkan saiz teks penulisan pilihan untuk editor nota, sesuaikan pengalaman anda.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Lalai ialah 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Eksport Gagal</string>
+    <string name="batch_export_options">Pilihan Eksport</string>
+    <string name="batch_export_select_formats">Pilih format yang anda ingin eksport:</string>
+    <string name="batch_export_audio_files">Eksport fail audio</string>
+    <string name="batch_export_txt_files">Eksport teks sebagai fail TXT</string>
+    <string name="batch_export_select_at_least_one_option">Sila pilih sekurang-kurangnya satu pilihan</string>
+    <string name="batch_export_title">Eksport</string>
+    <string name="batch_export_no_selection_made">Tiada pilihan dibuat, sila pilih item untuk dieksport</string>
+    <string name="batch_export_settings_title">Eksport berbilang nota</string>
+    <string name="batch_export_settings_description">TEKAN LAMA mana-mana kad nota untuk memaparkan pilihan eksport pada senarai nota</string>
+    <string name="batch_export_settings_how_to">Cara mengeksport berbilang nota</string>
+    <string name="batch_export_settings_how_to_description_1">TEKAN LAMA mana-mana kad nota untuk memasuki mod pemilihan, kemudian eksport berbilang nota sekaligus</string>
+    <string name="batch_export_settings_how_to_description_2">Tekan lama nota</string>
+    <string name="batch_export_settings_how_to_description_3">Pilih nota untuk dieksport</string>
+    <string name="batch_export_settings_how_to_description_4">Ketik butang eksport di bahagian bawah</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">ralat berlaku semasa mengeksport</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import Gagal</string>
 </resources>

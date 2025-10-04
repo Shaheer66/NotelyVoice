@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Tekst als .txt Exporteren</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Bevestiging</string>
-    <string name="confirmation_text">Wilt u de notitie verwijderen?</string>
-    <string name="recording_confirmation_text">Weet u zeker dat u de opname wilt verwijderen?</string>
+    <string name="confirmation_text">Wil je de notitie verwijderen? Deze actie kan niet ongedaan worden gemaakt</string>
+    <string name="recording_confirmation_text">Weet je zeker dat je de opname wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt</string>
     <string name="confirmation_delete">Verwijderen</string>
     <string name="confirmation_cancel">Annuleren</string>
     <string name="recording_replace_error">U heeft al een opname opgeslagen. Een nieuwe opname maken zal deze permanent vervangen. Wilt u doorgaan?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Gebruik de schuifregelaar om de gewenste schrijftekstgrootte voor de notitie-editor in te stellen, pas uw ervaring aan.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Standaard is 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Exporteren mislukt</string>
+    <string name="batch_export_options">Exportopties</string>
+    <string name="batch_export_select_formats">Selecteer de formaten die u wilt exporteren:</string>
+    <string name="batch_export_audio_files">Audiobestanden exporteren</string>
+    <string name="batch_export_txt_files">Tekst exporteren als TXT-bestanden</string>
+    <string name="batch_export_select_at_least_one_option">Selecteer ten minste één optie</string>
+    <string name="batch_export_title">Exporteren</string>
+    <string name="batch_export_no_selection_made">Geen selectie gemaakt, selecteer een item om te exporteren</string>
+    <string name="batch_export_settings_title">Meerdere notities exporteren</string>
+    <string name="batch_export_settings_description">HOUD een notitiekaart LANG INGEDRUKT om exportopties in de notitielijst weer te geven</string>
+    <string name="batch_export_settings_how_to">Meerdere notities exporteren</string>
+    <string name="batch_export_settings_how_to_description_1">HOUD een notitiekaart LANG INGEDRUKT om de selectiemodus te openen en exporteer vervolgens meerdere notities tegelijk</string>
+    <string name="batch_export_settings_how_to_description_2">Houd notitie lang ingedrukt</string>
+    <string name="batch_export_settings_how_to_description_3">Selecteer notities om te exporteren</string>
+    <string name="batch_export_settings_how_to_description_4">Tik op de exportknop onderaan</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">er is een fout opgetreden tijdens het exporteren</string>
+    <!-- Import -->
+    <string name="import_failed_title">Importeren mislukt</string>
 </resources>

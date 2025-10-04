@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Ekspor Teks sebagai .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Konfirmasi</string>
-    <string name="confirmation_text">Apakah Anda ingin menghapus catatan?</string>
-    <string name="recording_confirmation_text">Apakah Anda yakin ingin menghapus rekaman?</string>
+    <string name="confirmation_text">Apakah Anda ingin menghapus Catatan? Tindakan ini tidak dapat dibatalkan</string>
+    <string name="recording_confirmation_text">Apakah Anda yakin ingin menghapus rekaman? Tindakan ini tidak dapat dibatalkan</string>
     <string name="confirmation_delete">Hapus</string>
     <string name="confirmation_cancel">Batal</string>
     <string name="recording_replace_error">Anda sudah memiliki rekaman yang tersimpan. Membuat rekaman baru akan menggantikannya secara permanen. Apakah Anda ingin melanjutkan?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Gunakan slider untuk mengatur ukuran teks penulisan yang disukai untuk editor catatan, sesuaikan pengalaman Anda.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Default adalah 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Ekspor Gagal</string>
+    <string name="batch_export_options">Opsi Ekspor</string>
+    <string name="batch_export_select_formats">Pilih format yang ingin Anda ekspor:</string>
+    <string name="batch_export_audio_files">Ekspor file audio</string>
+    <string name="batch_export_txt_files">Ekspor teks sebagai file TXT</string>
+    <string name="batch_export_select_at_least_one_option">Silakan pilih setidaknya satu opsi</string>
+    <string name="batch_export_title">Ekspor</string>
+    <string name="batch_export_no_selection_made">Tidak ada pilihan yang dibuat, silakan pilih item untuk diekspor</string>
+    <string name="batch_export_settings_title">Ekspor beberapa catatan</string>
+    <string name="batch_export_settings_description">TEKAN LAMA kartu catatan apa pun untuk menampilkan opsi ekspor pada daftar catatan</string>
+    <string name="batch_export_settings_how_to">Cara mengekspor beberapa catatan</string>
+    <string name="batch_export_settings_how_to_description_1">TEKAN LAMA kartu catatan apa pun untuk masuk ke mode pemilihan, lalu ekspor beberapa catatan sekaligus</string>
+    <string name="batch_export_settings_how_to_description_2">Tekan lama catatan</string>
+    <string name="batch_export_settings_how_to_description_3">Pilih catatan untuk diekspor</string>
+    <string name="batch_export_settings_how_to_description_4">Ketuk tombol ekspor di bagian bawah</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">terjadi kesalahan saat mengekspor</string>
+    <!-- Import -->
+    <string name="import_failed_title">Impor Gagal</string>
 </resources>

@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">صادرات متن به صورت .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">تأیید</string>
-    <string name="confirmation_text">آیا می‌خواهید یادداشت را حذف کنید؟</string>
-    <string name="recording_confirmation_text">آیا مطمئن هستید که می‌خواهید ضبط را حذف کنید؟</string>
+    <string name="confirmation_text">آیا می‌خواهید یادداشت را حذف کنید؟ این عمل قابل بازگشت نیست</string>
+    <string name="recording_confirmation_text">آیا مطمئن هستید که می‌خواهید ضبط را حذف کنید؟ این عمل قابل بازگشت نیست</string>
     <string name="confirmation_delete">حذف</string>
     <string name="confirmation_cancel">لغو</string>
     <string name="recording_replace_error">شما قبلاً یک ضبط ذخیره کرده‌اید. ایجاد ضبط جدید آن را به طور دائم جایگزین خواهد کرد. آیا می‌خواهید ادامه دهید؟</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">از نوار لغزان برای تنظیم اندازه نوشتن مورد نظر برای ویرایشگر یادداشت‌ها استفاده کنید، تجربه خود را شخصی‌سازی کنید.</string>
     <string name="accessibility_a">الف</string>
     <string name="accessibility_default">پیش‌فرض 14 pt است</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">تأیید</string>
+    <string name="batch_export_failed">خروجی ناموفق بود</string>
+    <string name="batch_export_options">گزینه‌های خروجی</string>
+    <string name="batch_export_select_formats">فرمت‌هایی که می‌خواهید خروجی بگیرید را انتخاب کنید:</string>
+    <string name="batch_export_audio_files">خروجی گرفتن فایل‌های صوتی</string>
+    <string name="batch_export_txt_files">خروجی گرفتن متن به عنوان فایل‌های TXT</string>
+    <string name="batch_export_select_at_least_one_option">لطفاً حداقل یک گزینه را انتخاب کنید</string>
+    <string name="batch_export_title">خروجی</string>
+    <string name="batch_export_no_selection_made">انتخابی انجام نشده است، لطفاً یک مورد برای خروجی انتخاب کنید</string>
+    <string name="batch_export_settings_title">خروجی گرفتن از چندین یادداشت</string>
+    <string name="batch_export_settings_description">برای نمایش گزینه‌های خروجی در لیست یادداشت‌ها، روی هر کارت یادداشت به صورت طولانی فشار دهید</string>
+    <string name="batch_export_settings_how_to">نحوه خروجی گرفتن از چندین یادداشت</string>
+    <string name="batch_export_settings_how_to_description_1">روی هر کارت یادداشت به صورت طولانی فشار دهید تا وارد حالت انتخاب شوید، سپس چندین یادداشت را به طور همزمان خروجی بگیرید</string>
+    <string name="batch_export_settings_how_to_description_2">روی یادداشت به صورت طولانی فشار دهید</string>
+    <string name="batch_export_settings_how_to_description_3">یادداشت‌ها را برای خروجی انتخاب کنید</string>
+    <string name="batch_export_settings_how_to_description_4">روی دکمه خروجی در پایین ضربه بزنید</string>
+    <string name="batch_export_settings_how_to_1">۱.</string>
+    <string name="batch_export_settings_how_to_2">۲.</string>
+    <string name="batch_export_settings_how_to_3">۳.</string>
+    <string name="batch_export_settings_error_occurred">خطایی در هنگام خروجی رخ داد</string>
+    <!-- Import -->
+    <string name="import_failed_title">ورودی ناموفق بود</string>
 </resources>

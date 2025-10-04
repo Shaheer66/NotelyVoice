@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Vie teksti .txt-tiedostona</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Vahvista</string>
-    <string name="confirmation_text">Haluatko poistaa muistiinpanon?</string>
-    <string name="recording_confirmation_text">Oletko varma, että haluat poistaa äänityksen?</string>
+    <string name="confirmation_text">Haluatko poistaa muistiinpanon? Tätä toimintoa ei voi perua</string>
+    <string name="recording_confirmation_text">Haluatko varmasti poistaa tallennuksen? Tätä toimintoa ei voi perua</string>
     <string name="confirmation_delete">Poista</string>
     <string name="confirmation_cancel">Peruuta</string>
     <string name="recording_replace_error">Sinulla on jo tallennettu äänite. Uuden äänityksen luominen korvaa sen pysyvästi. Haluatko jatkaa?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Käytä liukusäädintä asettaaksesi haluamasi kirjoitustekstin koko muistiinpano-editorille, mukauta kokemustasi.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Oletus on 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Vienti epäonnistui</string>
+    <string name="batch_export_options">Viennin asetukset</string>
+    <string name="batch_export_select_formats">Valitse vietävät tiedostomuodot:</string>
+    <string name="batch_export_audio_files">Vie äänitiedostot</string>
+    <string name="batch_export_txt_files">Vie teksti TXT-tiedostoina</string>
+    <string name="batch_export_select_at_least_one_option">Valitse vähintään yksi vaihtoehto</string>
+    <string name="batch_export_title">Vie</string>
+    <string name="batch_export_no_selection_made">Valintaa ei tehty, valitse vietävä kohde</string>
+    <string name="batch_export_settings_title">Vie useita muistiinpanoja</string>
+    <string name="batch_export_settings_description">PAINA PITKÄÄN mitä tahansa muistiinpanokorttia näyttääksesi viennin asetukset muistiinpanoluettelossa</string>
+    <string name="batch_export_settings_how_to">Useiden muistiinpanojen vieminen</string>
+    <string name="batch_export_settings_how_to_description_1">PAINA PITKÄÄN mitä tahansa muistiinpanokorttia siirtyäksesi valintatilaan ja vie sitten useita muistiinpanoja kerralla</string>
+    <string name="batch_export_settings_how_to_description_2">Paina muistiinpanoa pitkään</string>
+    <string name="batch_export_settings_how_to_description_3">Valitse vietävät muistiinpanot</string>
+    <string name="batch_export_settings_how_to_description_4">Napauta vientipainiketta alareunassa</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">viennin aikana tapahtui virhe</string>
+    <!-- Import -->
+    <string name="import_failed_title">Tuonti epäonnistui</string>
 </resources>

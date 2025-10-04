@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">텍스트를 .txt로 내보내기</string>
     <!-- Delete Dialog -->
     <string name="confirmation">확인</string>
-    <string name="confirmation_text">노트를 삭제하시겠습니까?</string>
-    <string name="recording_confirmation_text">녹음을 삭제하시겠습니까?</string>
+    <string name="confirmation_text">메모를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다</string>
+    <string name="recording_confirmation_text">녹음을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다</string>
     <string name="confirmation_delete">삭제</string>
     <string name="confirmation_cancel">취소</string>
     <string name="recording_replace_error">이미 저장된 녹음이 있습니다. 새 녹음을 만들면 기존 녹음이 영구적으로 교체됩니다. 계속하시겠습니까?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">슬라이더를 사용하여 노트 편집기의 선호하는 작성 본문 크기를 설정하고 경험을 맞춤설정하세요.</string>
     <string name="accessibility_a">가</string>
     <string name="accessibility_default">기본값은 14 pt입니다</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">확인</string>
+    <string name="batch_export_failed">내보내기 실패</string>
+    <string name="batch_export_options">내보내기 옵션</string>
+    <string name="batch_export_select_formats">내보낼 형식을 선택하세요:</string>
+    <string name="batch_export_audio_files">오디오 파일 내보내기</string>
+    <string name="batch_export_txt_files">텍스트를 TXT 파일로 내보내기</string>
+    <string name="batch_export_select_at_least_one_option">최소 하나의 옵션을 선택하세요</string>
+    <string name="batch_export_title">내보내기</string>
+    <string name="batch_export_no_selection_made">선택하지 않았습니다. 내보낼 항목을 선택하세요</string>
+    <string name="batch_export_settings_title">여러 메모 내보내기</string>
+    <string name="batch_export_settings_description">메모 목록에서 내보내기 옵션을 표시하려면 메모 카드를 길게 누르세요</string>
+    <string name="batch_export_settings_how_to">여러 메모를 내보내는 방법</string>
+    <string name="batch_export_settings_how_to_description_1">선택 모드로 들어가려면 메모 카드를 길게 누른 다음 여러 메모를 한 번에 내보내세요</string>
+    <string name="batch_export_settings_how_to_description_2">메모를 길게 누르기</string>
+    <string name="batch_export_settings_how_to_description_3">내보낼 메모 선택</string>
+    <string name="batch_export_settings_how_to_description_4">하단의 내보내기 버튼 탭</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">내보내는 중 오류가 발생했습니다</string>
+    <!-- Import -->
+    <string name="import_failed_title">가져오기 실패</string>
 </resources>

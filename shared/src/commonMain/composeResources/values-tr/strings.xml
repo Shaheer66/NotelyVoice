@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Metni .txt Olarak Dışa Aktar</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Onay</string>
-    <string name="confirmation_text">Notu silmek istiyor musunuz?</string>
-    <string name="recording_confirmation_text">Kaydı silmek istediğinizden emin misiniz?</string>
+    <string name="confirmation_text">Notu silmek istiyor musunuz? Bu işlem geri alınamaz</string>
+    <string name="recording_confirmation_text">Kaydı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz</string>
     <string name="confirmation_delete">Sil</string>
     <string name="confirmation_cancel">İptal</string>
     <string name="recording_replace_error">Zaten kaydedilmiş bir kaydınız var. Yeni bir kayıt oluşturmak bunu kalıcı olarak değiştirecek. Devam etmek istiyor musunuz?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Not editörü için tercih edilen yazı gövde boyutunu ayarlamak için kaydırıcıyı kullanın, deneyiminizi özelleştirin.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Varsayılan 14 pt\'dir</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">Tamam</string>
+    <string name="batch_export_failed">Dışa Aktarma Başarısız</string>
+    <string name="batch_export_options">Dışa Aktarma Seçenekleri</string>
+    <string name="batch_export_select_formats">Dışa aktarmak istediğiniz formatları seçin:</string>
+    <string name="batch_export_audio_files">Ses dosyalarını dışa aktar</string>
+    <string name="batch_export_txt_files">Metni TXT dosyaları olarak dışa aktar</string>
+    <string name="batch_export_select_at_least_one_option">Lütfen en az bir seçenek seçin</string>
+    <string name="batch_export_title">Dışa Aktar</string>
+    <string name="batch_export_no_selection_made">Seçim yapılmadı, lütfen dışa aktarmak için bir öğe seçin</string>
+    <string name="batch_export_settings_title">Birden fazla not dışa aktar</string>
+    <string name="batch_export_settings_description">Not listesinde dışa aktarma seçeneklerini göstermek için herhangi bir not kartına UZUN BASIN</string>
+    <string name="batch_export_settings_how_to">Birden fazla not nasıl dışa aktarılır</string>
+    <string name="batch_export_settings_how_to_description_1">Seçim moduna girmek için herhangi bir not kartına UZUN BASIN, ardından birden fazla notu aynı anda dışa aktarın</string>
+    <string name="batch_export_settings_how_to_description_2">Nota uzun basın</string>
+    <string name="batch_export_settings_how_to_description_3">Dışa aktarılacak notları seçin</string>
+    <string name="batch_export_settings_how_to_description_4">Alttaki dışa aktarma düğmesine dokunun</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">dışa aktarma sırasında hata oluştu</string>
+    <!-- Import -->
+    <string name="import_failed_title">İçe Aktarma Başarısız</string>
 </resources>

@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">テキストを.txtとしてエクスポート</string>
     <!-- Delete Dialog -->
     <string name="confirmation">確認</string>
-    <string name="confirmation_text">ノートを削除しますか？</string>
-    <string name="recording_confirmation_text">録音を削除してもよろしいですか？</string>
+    <string name="confirmation_text">メモを削除しますか？この操作は元に戻せません</string>
+    <string name="recording_confirmation_text">録音を削除してもよろしいですか？この操作は元に戻せません</string>
     <string name="confirmation_delete">削除</string>
     <string name="confirmation_cancel">キャンセル</string>
     <string name="recording_replace_error">保存された録音がすでにあります。新しい録音を作成すると、既存の録音が永続的に置き換えられます。続行しますか？</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">スライダーを使用してノートエディターの優先書きテキストサイズを設定し、あなたの体験をカスタマイズしてください。</string>
     <string name="accessibility_a">あ</string>
     <string name="accessibility_default">デフォルトは14 ptです</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">エクスポートに失敗しました</string>
+    <string name="batch_export_options">エクスポートオプション</string>
+    <string name="batch_export_select_formats">エクスポートする形式を選択してください：</string>
+    <string name="batch_export_audio_files">オーディオファイルをエクスポート</string>
+    <string name="batch_export_txt_files">テキストをTXTファイルとしてエクスポート</string>
+    <string name="batch_export_select_at_least_one_option">少なくとも1つのオプションを選択してください</string>
+    <string name="batch_export_title">エクスポート</string>
+    <string name="batch_export_no_selection_made">選択されていません。エクスポートするアイテムを選択してください</string>
+    <string name="batch_export_settings_title">複数のメモをエクスポート</string>
+    <string name="batch_export_settings_description">メモリストでエクスポートオプションを表示するには、任意のメモカードを長押ししてください</string>
+    <string name="batch_export_settings_how_to">複数のメモをエクスポートする方法</string>
+    <string name="batch_export_settings_how_to_description_1">任意のメモカードを長押しして選択モードに入り、複数のメモを一度にエクスポートします</string>
+    <string name="batch_export_settings_how_to_description_2">メモを長押し</string>
+    <string name="batch_export_settings_how_to_description_3">エクスポートするメモを選択</string>
+    <string name="batch_export_settings_how_to_description_4">下部のエクスポートボタンをタップ</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">エクスポート中にエラーが発生しました</string>
+    <!-- Import -->
+    <string name="import_failed_title">インポートに失敗しました</string>
 </resources>

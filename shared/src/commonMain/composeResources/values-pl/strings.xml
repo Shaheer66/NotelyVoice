@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Eksportuj tekst jako .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Potwierdzenie</string>
-    <string name="confirmation_text">Czy chcesz usunąć notatkę?</string>
-    <string name="recording_confirmation_text">Czy na pewno chcesz usunąć nagranie?</string>
+    <string name="confirmation_text">Czy chcesz usunąć notatkę? Tej czynności nie można cofnąć</string>
+    <string name="recording_confirmation_text">Czy na pewno chcesz usunąć nagranie? Tej czynności nie można cofnąć</string>
     <string name="confirmation_delete">Usuń</string>
     <string name="confirmation_cancel">Anuluj</string>
     <string name="recording_replace_error">Masz już zapisane nagranie. Utworzenie nowego nagrania zastąpi je na stałe. Czy chcesz kontynuować?</string>
@@ -164,4 +164,27 @@
     <string name="accessibility_desc">Użyj suwaka, aby ustawić preferowany rozmiar tekstu pisania dla edytora notatek, dostosuj swoje doświadczenie.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Domyślny to 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Eksport nie powiódł się</string>
+    <string name="batch_export_options">Opcje eksportu</string>
+    <string name="batch_export_select_formats">Wybierz formaty, które chcesz wyeksportować:</string>
+    <string name="batch_export_audio_files">Eksportuj pliki audio</string>
+    <string name="batch_export_txt_files">Eksportuj tekst jako pliki TXT</string>
+    <string name="batch_export_select_at_least_one_option">Wybierz co najmniej jedną opcję</string>
+    <string name="batch_export_title">Eksportuj</string>
+    <string name="batch_export_no_selection_made">Nie dokonano wyboru, wybierz element do eksportu</string>
+    <string name="batch_export_settings_title">Eksportuj wiele notatek</string>
+    <string name="batch_export_settings_description">PRZYTRZYMAJ dowolną kartę notatki, aby wyświetlić opcje eksportu na liście notatek</string>
+    <string name="batch_export_settings_how_to">Jak wyeksportować wiele notatek</string>
+    <string name="batch_export_settings_how_to_description_1">PRZYTRZYMAJ dowolną kartę notatki, aby przejść do trybu wyboru, a następnie wyeksportuj wiele notatek jednocześnie</string>
+    <string name="batch_export_settings_how_to_description_2">Przytrzymaj notatkę</string>
+    <string name="batch_export_settings_how_to_description_3">Wybierz notatki do eksportu</string>
+    <string name="batch_export_settings_how_to_description_4">Dotknij przycisku eksportu na dole</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">wystąpił błąd podczas eksportowania</string>
+    <!-- Import -->
+    <string name="import_failed_title">Import nie powiódł się</string>
 </resources>

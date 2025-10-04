@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">ส่งออกข้อความเป็น .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">ยืนยัน</string>
-    <string name="confirmation_text">คุณต้องการลบโน้ตหรือไม่?</string>
-    <string name="recording_confirmation_text">คุณแน่ใจหรือไม่ว่าต้องการลบการบันทึก?</string>
+    <string name="confirmation_text">คุณต้องการลบโน้ตหรือไม่? การดำเนินการนี้ไม่สามารถยกเลิกได้</string>
+    <string name="recording_confirmation_text">คุณแน่ใจหรือไม่ว่าต้องการลบการบันทึก? การดำเนินการนี้ไม่สามารถยกเลิกได้</string>
     <string name="confirmation_delete">ลบ</string>
     <string name="confirmation_cancel">ยกเลิก</string>
     <string name="recording_replace_error">คุณมีการบันทึกที่บันทึกไว้แล้ว การสร้างการบันทึกใหม่จะแทนที่การบันทึกเดิมอย่างถาวร คุณต้องการดำเนินการต่อหรือไม่?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">ใช้แถบเลื่อนเพื่อตั้งค่าขนาดข้อความการเขียนที่ต้องการสำหรับตัวแก้ไขโน้ต ปรับแต่งประสบการณ์ของคุณ</string>
     <string name="accessibility_a">ก</string>
     <string name="accessibility_default">ค่าเริ่มต้นคือ 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">ตกลง</string>
+    <string name="batch_export_failed">การส่งออกล้มเหลว</string>
+    <string name="batch_export_options">ตัวเลือกการส่งออก</string>
+    <string name="batch_export_select_formats">เลือกรูปแบบที่คุณต้องการส่งออก:</string>
+    <string name="batch_export_audio_files">ส่งออกไฟล์เสียง</string>
+    <string name="batch_export_txt_files">ส่งออกข้อความเป็นไฟล์ TXT</string>
+    <string name="batch_export_select_at_least_one_option">โปรดเลือกตัวเลือกอย่างน้อยหนึ่งตัวเลือก</string>
+    <string name="batch_export_title">ส่งออก</string>
+    <string name="batch_export_no_selection_made">ไม่ได้เลือก โปรดเลือกรายการที่จะส่งออก</string>
+    <string name="batch_export_settings_title">ส่งออกหลายบันทึก</string>
+    <string name="batch_export_settings_description">กดค้างบัตรบันทึกใดก็ได้เพื่อแสดงตัวเลือกการส่งออกในรายการบันทึก</string>
+    <string name="batch_export_settings_how_to">วิธีส่งออกหลายบันทึก</string>
+    <string name="batch_export_settings_how_to_description_1">กดค้างบัตรบันทึกใดก็ได้เพื่อเข้าสู่โหมดการเลือก จากนั้นส่งออกหลายบันทึกพร้อมกัน</string>
+    <string name="batch_export_settings_how_to_description_2">กดค้างบันทึก</string>
+    <string name="batch_export_settings_how_to_description_3">เลือกบันทึกที่จะส่งออก</string>
+    <string name="batch_export_settings_how_to_description_4">แตะปุ่มส่งออกที่ด้านล่าง</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">เกิดข้อผิดพลาดขึ้นระหว่างการส่งออก</string>
+    <!-- Import -->
+    <string name="import_failed_title">การนำเข้าล้มเหลว</string>
 </resources>

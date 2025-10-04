@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">I-export ang Teksto bilang .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Kumpirmahin</string>
-    <string name="confirmation_text">Gusto mo bang tanggalin ang tala?</string>
-    <string name="recording_confirmation_text">Sigurado ka bang gusto mong tanggalin ang recording?</string>
+    <string name="confirmation_text">Gusto mo bang tanggalin ang Tala? Hindi na maaaring bawiin ang aksyong ito</string>
+    <string name="recording_confirmation_text">Sigurado ka bang gusto mong tanggalin ang recording? Hindi na maaaring bawiin ang aksyong ito</string>
     <string name="confirmation_delete">Tanggalin</string>
     <string name="confirmation_cancel">Kanselahin</string>
     <string name="recording_replace_error">Mayroon ka nang nakaimbak na recording. Ang paggawa ng bagong recording ay papalitan ito nang permanente. Gusto mo bang magpatuloy?</string>
@@ -162,4 +162,27 @@
     <string name="accessibility_desc">Gamitin ang slider para itakda ang gustong laki ng pagsusulat para sa notes editor, i-customize ang inyong karanasan.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Ang default ay 14 pt</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">OK</string>
+    <string name="batch_export_failed">Nabigo ang Pag-export</string>
+    <string name="batch_export_options">Mga Opsyon sa Pag-export</string>
+    <string name="batch_export_select_formats">Piliin ang mga format na nais mong i-export:</string>
+    <string name="batch_export_audio_files">Mag-export ng mga audio file</string>
+    <string name="batch_export_txt_files">Mag-export ng teksto bilang mga TXT file</string>
+    <string name="batch_export_select_at_least_one_option">Mangyaring pumili ng hindi bababa sa isang opsyon</string>
+    <string name="batch_export_title">I-export</string>
+    <string name="batch_export_no_selection_made">Walang ginawang pagpili, mangyaring pumili ng item na ie-export</string>
+    <string name="batch_export_settings_title">Mag-export ng maraming tala</string>
+    <string name="batch_export_settings_description">PINDUTIN NANG MATAGAL ang kahit anong note card upang ipakita ang mga opsyon sa pag-export sa listahan ng mga tala</string>
+    <string name="batch_export_settings_how_to">Paano mag-export ng maraming tala</string>
+    <string name="batch_export_settings_how_to_description_1">PINDUTIN NANG MATAGAL ang kahit anong note card upang pumasok sa selection mode, pagkatapos ay mag-export ng maraming tala nang sabay-sabay</string>
+    <string name="batch_export_settings_how_to_description_2">Pindutin nang matagal ang tala</string>
+    <string name="batch_export_settings_how_to_description_3">Piliin ang mga tala na ie-export</string>
+    <string name="batch_export_settings_how_to_description_4">I-tap ang button ng pag-export sa ibaba</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">may naganap na error habang nag-e-export</string>
+    <!-- Import -->
+    <string name="import_failed_title">Nabigo ang Pag-import</string>
 </resources>

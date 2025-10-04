@@ -16,8 +16,8 @@
     <string name="top_bar_export_as_txt">Exportar text com a .txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">Confirmació</string>
-    <string name="confirmation_text">Vols eliminar la nota?</string>
-    <string name="recording_confirmation_text">Estàs segur que vols eliminar l\'enregistrament?</string>
+    <string name="confirmation_text">Vols eliminar la nota? Aquesta acció no es pot desfer</string>
+    <string name="recording_confirmation_text">Estàs segur que vols eliminar l\'enregistrament? Aquesta acció no es pot desfer</string>
     <string name="confirmation_delete">Eliminar</string>
     <string name="confirmation_cancel">Cancel·lar</string>
     <string name="recording_replace_error">Ja tens un enregistrament desat. Crear un nou enregistrament el substituirà permanentment. Vols continuar?</string>
@@ -162,4 +162,26 @@
     <string name="accessibility_desc">Utilitza el control lliscant per establir la mida de text d\'escriptura preferida per a l\'editor de notes, personalitza la teva experiència.</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">Per defecte és 14 pt</string>
+    <string name="batch_export_ok">D\'acord</string>
+    <string name="batch_export_failed">Exportació fallida</string>
+    <string name="batch_export_options">Opcions d\'exportació</string>
+    <string name="batch_export_select_formats">Seleccioneu els formats que voleu exportar:</string>
+    <string name="batch_export_audio_files">Exportar fitxers d\'àudio</string>
+    <string name="batch_export_txt_files">Exportar text com a fitxers TXT</string>
+    <string name="batch_export_select_at_least_one_option">Seleccioneu almenys una opció</string>
+    <string name="batch_export_title">Exportar</string>
+    <string name="batch_export_no_selection_made">No s\'ha fet cap selecció, seleccioneu un element per exportar</string>
+    <string name="batch_export_settings_title">Exportar múltiples notes</string>
+    <string name="batch_export_settings_description">MANTENIU PREMUT qualsevol targeta de nota per mostrar les opcions d\'exportació a la llista de notes</string>
+    <string name="batch_export_settings_how_to">Com exportar múltiples notes</string>
+    <string name="batch_export_settings_how_to_description_1">MANTENIU PREMUT qualsevol targeta de nota per entrar en mode de selecció i després exporteu múltiples notes alhora</string>
+    <string name="batch_export_settings_how_to_description_2">Manteniu premuda la nota</string>
+    <string name="batch_export_settings_how_to_description_3">Seleccioneu les notes per exportar</string>
+    <string name="batch_export_settings_how_to_description_4">Toqueu el botó d\'exportació a la part inferior</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">s\'ha produït un error durant l\'exportació</string>
+    <!-- Import -->
+    <string name="import_failed_title">Importació fallida</string>
 </resources>

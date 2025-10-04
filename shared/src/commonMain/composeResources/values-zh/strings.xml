@@ -15,8 +15,8 @@
     <string name="top_bar_export_as_txt">导出文本为.txt</string>
     <!-- Delete Dialog -->
     <string name="confirmation">确认</string>
-    <string name="confirmation_text">您要删除这条笔记吗？</string>
-    <string name="recording_confirmation_text">您确定要删除此录音吗？</string>
+    <string name="confirmation_text">您要删除笔记吗？此操作无法撤消</string>
+    <string name="recording_confirmation_text">您确定要删除录音吗？此操作无法撤消</string>
     <string name="confirmation_delete">删除</string>
     <string name="confirmation_cancel">取消</string>
     <string name="recording_replace_error">您已经保存了一条录音。创建新的录音将会永久替换掉当前的录音。您要继续吗？</string>
@@ -160,4 +160,27 @@
     <string name="accessibility_desc">使用滑块设置笔记编辑器的首选正文字体大小，个性化您的体验。</string>
     <string name="accessibility_a">A</string>
     <string name="accessibility_default">默认为 14 磅</string>
+    <!-- Batch Export feature -->
+    <string name="batch_export_ok">确定</string>
+    <string name="batch_export_failed">导出失败</string>
+    <string name="batch_export_options">导出选项</string>
+    <string name="batch_export_select_formats">选择您要导出的格式：</string>
+    <string name="batch_export_audio_files">导出音频文件</string>
+    <string name="batch_export_txt_files">将文本导出为TXT文件</string>
+    <string name="batch_export_select_at_least_one_option">请至少选择一个选项</string>
+    <string name="batch_export_title">导出</string>
+    <string name="batch_export_no_selection_made">未进行选择，请选择要导出的项目</string>
+    <string name="batch_export_settings_title">导出多个笔记</string>
+    <string name="batch_export_settings_description">长按任意笔记卡片以在笔记列表中显示导出选项</string>
+    <string name="batch_export_settings_how_to">如何导出多个笔记</string>
+    <string name="batch_export_settings_how_to_description_1">长按任意笔记卡片进入选择模式，然后一次导出多个笔记</string>
+    <string name="batch_export_settings_how_to_description_2">长按笔记</string>
+    <string name="batch_export_settings_how_to_description_3">选择要导出的笔记</string>
+    <string name="batch_export_settings_how_to_description_4">点击底部的导出按钮</string>
+    <string name="batch_export_settings_how_to_1">1.</string>
+    <string name="batch_export_settings_how_to_2">2.</string>
+    <string name="batch_export_settings_how_to_3">3.</string>
+    <string name="batch_export_settings_error_occurred">导出时发生错误</string>
+    <!-- Import -->
+    <string name="import_failed_title">导入失败</string>
 </resources>
