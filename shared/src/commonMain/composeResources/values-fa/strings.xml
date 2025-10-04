@@ -183,6 +183,7 @@
     <string name="batch_export_settings_how_to_2">۲.</string>
     <string name="batch_export_settings_how_to_3">۳.</string>
     <string name="batch_export_settings_error_occurred">خطایی در هنگام خروجی رخ داد</string>
+    <string name="batch_export_settings_no_folder_selected">انتخاب پوشه لغو شد</string>
     <!-- Import -->
     <string name="import_failed_title">ورودی ناموفق بود</string>
 </resources>

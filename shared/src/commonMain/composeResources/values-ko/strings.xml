@@ -183,6 +183,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">내보내는 중 오류가 발생했습니다</string>
+    <string name="batch_export_settings_no_folder_selected">폴더 선택이 취소되었습니다</string>
     <!-- Import -->
     <string name="import_failed_title">가져오기 실패</string>
 </resources>

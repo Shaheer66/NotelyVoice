@@ -185,6 +185,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">wystąpił błąd podczas eksportowania</string>
+    <string name="batch_export_settings_no_folder_selected">Wybór folderu anulowany</string>
     <!-- Import -->
     <string name="import_failed_title">Import nie powiódł się</string>
 </resources>

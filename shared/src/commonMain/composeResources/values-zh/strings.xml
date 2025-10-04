@@ -181,6 +181,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">导出时发生错误</string>
+    <string name="batch_export_settings_no_folder_selected">文件夹选择已取消</string>
     <!-- Import -->
     <string name="import_failed_title">导入失败</string>
 </resources>

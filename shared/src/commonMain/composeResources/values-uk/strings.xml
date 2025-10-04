@@ -185,6 +185,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">сталася помилка під час експорту</string>
+    <string name="batch_export_settings_no_folder_selected">Вибір папки скасовано</string>
     <!-- Import -->
     <string name="import_failed_title">Імпорт не вдався</string>
 </resources>

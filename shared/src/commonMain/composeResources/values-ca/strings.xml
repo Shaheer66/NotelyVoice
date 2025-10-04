@@ -182,6 +182,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">s\'ha produït un error durant l\'exportació</string>
+    <string name="batch_export_settings_no_folder_selected">Selecció de carpeta cancel·lada</string>
     <!-- Import -->
     <string name="import_failed_title">Importació fallida</string>
 </resources>

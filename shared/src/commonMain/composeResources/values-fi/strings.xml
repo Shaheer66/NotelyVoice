@@ -183,6 +183,7 @@
     <string name="batch_export_settings_how_to_2">2.</string>
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">viennin aikana tapahtui virhe</string>
+    <string name="batch_export_settings_no_folder_selected">Kansion valinta peruutettu</string>
     <!-- Import -->
     <string name="import_failed_title">Tuonti epäonnistui</string>
 </resources>
