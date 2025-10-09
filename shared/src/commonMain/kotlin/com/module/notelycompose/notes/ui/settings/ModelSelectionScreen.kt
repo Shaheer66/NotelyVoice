@@ -37,18 +37,13 @@ fun ModelSelectionScreen(
     val modelOptions = listOf(
         ModelOption(
             title = "Standard model (multilingual)",
-            description = "Faster performance and smaller file size\nSupports multiple languages except Hindi",
+            description = "Faster performance and smaller file size\nSupports all languages",
             size = "142 MB"
         ),
         ModelOption(
             title = "Optimized Model (Multilingual)",
-            description = "Highest accuracy available\nSupports Hindi and all other languages\nLarger file size, slower performance",
+            description = "Highest accuracy available\nSupports all languages except Hindi & Gujarati\nLarger file size, slower performance",
             size = "488 MB"
-        ),
-        ModelOption(
-            title = "Hindi & Gujarati Model (Multilingual + Hindi)",
-            description = "Highest accuracy available\nSupports Hindi and all other languages\nLarger file size, slower performance",
-            size = "139 MB"
         )
     )
 

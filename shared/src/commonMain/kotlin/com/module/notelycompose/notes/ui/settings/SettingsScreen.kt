@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
@@ -28,8 +27,6 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RadioButton
-import androidx.compose.material3.RadioButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -39,14 +36,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.module.notelycompose.modelDownloader.HINDI_MODEL_SELECTION
 import com.module.notelycompose.modelDownloader.NO_MODEL_SELECTION
 import com.module.notelycompose.modelDownloader.OPTIMIZED_MODEL_SELECTION
-import com.module.notelycompose.modelDownloader.STANDARD_MODEL_SELECTION
 import com.module.notelycompose.notes.extension.TEXT_SIZE_BODY
 import com.module.notelycompose.notes.extension.intBodyFontSizes
 import com.module.notelycompose.notes.ui.theme.LocalCustomColors
@@ -593,26 +587,16 @@ private fun LanguageModelSelectionSection(
                     ModelOption(
                         title = "Optimized model (multilingual)",
                         description = "Highest accuracy available\n" +
-                                "Supports English and all other languages\n" +
+                                "Supports all languages except Hindi & Gujarati\n" +
                                 "Larger file size, slower performance",
                         size = "468 MB"
                     )
                 }
-                HINDI_MODEL_SELECTION -> {
-                    ModelOption(
-                        title = "Hindi & Gujarati model (multilingual)",
-                        description = "Highest accuracy available\n" +
-                                "Supports Hindi and Gujarati\n" +
-                                "Larger file size, slower performance",
-                        size = "139 MB"
-                    )
-                }
                 else -> {
                     ModelOption(
-                        title = "Optimized model (multilingual)",
-                        description = "Highest accuracy available\n" +
-                                "Supports all languages\n" +
-                                "Smaller file size, slower performance",
+                        title = "Standard model (multilingual)",
+                        description = "Faster performance and smaller file size\n" +
+                                "Supports all languages",
                         size = "142 MB"
                     )
                 }
