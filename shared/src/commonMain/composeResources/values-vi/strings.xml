@@ -184,7 +184,6 @@
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">đã xảy ra lỗi khi xuất</string>
     <string name="batch_export_settings_no_folder_selected">Đã hủy chọn thư mục</string>
-
     <!-- Import -->
     <string name="import_failed_title">Nhập Thất Bại</string>
 </resources>
