@@ -118,7 +118,7 @@
     <string name="download">I-download</string>
     <!-- Settings Screen -->
     <string name="settings">Mga Setting</string>
-    <string name="customize_your_experience">I-customize ang inyong karanasan</string>
+    <string name="customize_your_experience">Mag-scroll pababa upang makita ang lahat ng mga setting</string>
     <string name="language_and_region">Wika &amp; Rehiyon</string>
     <string name="transcription_language">Wika ng Transcription</string>
     <string name="language_used_for_voice_transcription">Wikang ginagamit para sa voice transcription</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Kinansela ang pagpili ng folder</string>
     <!-- Import -->
     <string name="import_failed_title">Nabigo ang Pag-import</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Piliin / I-deselect Lahat</string>
+    <string name="top_bar_import_video">Mag-import ng Video</string>
 </resources>

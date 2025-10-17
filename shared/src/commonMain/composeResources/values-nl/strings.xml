@@ -118,7 +118,7 @@
     <string name="download">Downloaden</string>
     <!-- Settings Screen -->
     <string name="settings">Instellingen</string>
-    <string name="customize_your_experience">Pas uw ervaring aan</string>
+    <string name="customize_your_experience">Scroll naar beneden om alle instellingen te zien</string>
     <string name="language_and_region">Taal &amp; Regio</string>
     <string name="transcription_language">Transcriptietaal</string>
     <string name="language_used_for_voice_transcription">Taal gebruikt voor spraaктranscriptie</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Mapselectie geannuleerd</string>
     <!-- Import -->
     <string name="import_failed_title">Importeren mislukt</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Alles selecteren / deselecteren</string>
+    <string name="top_bar_import_video">Video importeren</string>
 </resources>

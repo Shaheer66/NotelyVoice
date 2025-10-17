@@ -118,7 +118,7 @@
     <string name="download">ダウンロード</string>
     <!-- Settings Screen -->
     <string name="settings">設定</string>
-    <string name="customize_your_experience">あなたの体験をカスタマイズ</string>
+    <string name="customize_your_experience">下にスクロールしてすべての設定を表示</string>
     <string name="language_and_region">言語と地域</string>
     <string name="transcription_language">文字起こし言語</string>
     <string name="language_used_for_voice_transcription">音声文字起こしに使用される言語</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">フォルダの選択がキャンセルされました</string>
     <!-- Import -->
     <string name="import_failed_title">インポートに失敗しました</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">すべて選択 / 選択解除</string>
+    <string name="top_bar_import_video">動画をインポート</string>
 </resources>

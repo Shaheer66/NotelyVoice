@@ -118,7 +118,7 @@
     <string name="download">다운로드</string>
     <!-- Settings Screen -->
     <string name="settings">설정</string>
-    <string name="customize_your_experience">경험을 맞춤설정하세요</string>
+    <string name="customize_your_experience">아래로 스크롤하여 모든 설정 보기</string>
     <string name="language_and_region">언어 및 지역</string>
     <string name="transcription_language">변환 언어</string>
     <string name="language_used_for_voice_transcription">음성 변환에 사용되는 언어</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">폴더 선택이 취소되었습니다</string>
     <!-- Import -->
     <string name="import_failed_title">가져오기 실패</string>
+    <string name="ok">확인</string>
+    <string name="select_deselect_all">모두 선택 / 선택 해제</string>
+    <string name="top_bar_import_video">동영상 가져오기</string>
 </resources>

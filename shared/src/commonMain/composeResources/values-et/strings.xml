@@ -118,7 +118,7 @@
     <string name="download">Laadi alla</string>
     <!-- Settings Screen -->
     <string name="settings">Seadistused</string>
-    <string name="customize_your_experience">Kohanda kasutajaliides selliseks, nagu soovid</string>
+    <string name="customize_your_experience">Keri alla, et näha kõiki seadeid</string>
     <string name="language_and_region">Keel ja piirkond</string>
     <string name="transcription_language">Ümberkirjutuse keel</string>
     <string name="language_used_for_voice_transcription">Heli ümberkirjutuseks kasutatud keel</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Kausta valik tühistati</string>
     <!-- Import -->
     <string name="import_failed_title">Import ebaõnnestus</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Vali / Tühista kõik</string>
+    <string name="top_bar_import_video">Impordi video</string>
 </resources>

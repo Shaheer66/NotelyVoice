@@ -118,7 +118,7 @@
     <string name="download">Ladda ner</string>
     <!-- Settings Screen -->
     <string name="settings">Inställningar</string>
-    <string name="customize_your_experience">Anpassa din upplevelse</string>
+    <string name="customize_your_experience">Scrolla ner för att se alla inställningar</string>
     <string name="language_and_region">Språk &amp; Region</string>
     <string name="transcription_language">Transkriptionsspråk</string>
     <string name="language_used_for_voice_transcription">Språk som används för rösttranskription</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Mappval avbröts</string>
     <!-- Import -->
     <string name="import_failed_title">Import misslyckades</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Markera / Avmarkera alla</string>
+    <string name="top_bar_import_video">Importera video</string>
 </resources>

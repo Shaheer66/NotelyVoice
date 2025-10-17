@@ -118,7 +118,7 @@
     <string name="download">Muat Turun</string>
     <!-- Settings Screen -->
     <string name="settings">Tetapan</string>
-    <string name="customize_your_experience">Sesuaikan pengalaman anda</string>
+    <string name="customize_your_experience">Tatal ke bawah untuk melihat semua tetapan</string>
     <string name="language_and_region">Bahasa &amp; Wilayah</string>
     <string name="transcription_language">Bahasa Transkripsi</string>
     <string name="language_used_for_voice_transcription">Bahasa yang digunakan untuk transkripsi suara</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Pemilihan folder dibatalkan</string>
     <!-- Import -->
     <string name="import_failed_title">Import Gagal</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Pilih / Nyahpilih Semua</string>
+    <string name="top_bar_import_video">Import Video</string>
 </resources>

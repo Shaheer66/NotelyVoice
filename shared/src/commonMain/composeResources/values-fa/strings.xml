@@ -118,7 +118,7 @@
     <string name="download">دانلود</string>
     <!-- Settings Screen -->
     <string name="settings">تنظیمات</string>
-    <string name="customize_your_experience">تجربه خود را شخصی‌سازی کنید</string>
+    <string name="customize_your_experience">برای مشاهده همه تنظیمات به پایین بروید</string>
     <string name="language_and_region">زبان و منطقه</string>
     <string name="transcription_language">زبان رونویسی</string>
     <string name="language_used_for_voice_transcription">زبان مورد استفاده برای رونویسی صوت</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">انتخاب پوشه لغو شد</string>
     <!-- Import -->
     <string name="import_failed_title">ورودی ناموفق بود</string>
+    <string name="ok">تأیید</string>
+    <string name="select_deselect_all">انتخاب / لغو انتخاب همه</string>
+    <string name="top_bar_import_video">وارد کردن ویدیو</string>
 </resources>

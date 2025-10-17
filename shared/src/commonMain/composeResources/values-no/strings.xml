@@ -118,7 +118,7 @@
     <string name="download">Last ned</string>
     <!-- Settings Screen -->
     <string name="settings">Innstillinger</string>
-    <string name="customize_your_experience">Tilpass opplevelsen din</string>
+    <string name="customize_your_experience">Rull ned for å se alle innstillingene</string>
     <string name="language_and_region">Språk og region</string>
     <string name="transcription_language">Transkripsjonsspråk</string>
     <string name="language_used_for_voice_transcription">Språk brukt for taletranskripsjon</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Mappevalg avbrutt</string>
     <!-- Import -->
     <string name="import_failed_title">Import mislyktes</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Velg / Fjern valg av alle</string>
+    <string name="top_bar_import_video">Importer video</string>
 </resources>

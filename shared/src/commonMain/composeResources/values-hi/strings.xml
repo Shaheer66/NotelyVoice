@@ -118,7 +118,7 @@
     <string name="download">डाउनलोड करें</string>
     <!-- Settings Screen -->
     <string name="settings">सेटिंग्स</string>
-    <string name="customize_your_experience">अपने अनुभव को कस्टमाइज़ करें</string>
+    <string name="customize_your_experience">सभी सेटिंग्स देखने के लिए नीचे स्क्रॉल करें</string>
     <string name="language_and_region">भाषा और क्षेत्र</string>
     <string name="transcription_language">ट्रांसक्रिप्शन भाषा</string>
     <string name="language_used_for_voice_transcription">आवाज़ ट्रांसक्रिप्शन के लिए उपयोग की जाने वाली भाषा</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">फ़ोल्डर चयन रद्द किया गया</string>
     <!-- Import -->
     <string name="import_failed_title">आयात विफल</string>
+    <string name="ok">ठीक है</string>
+    <string name="select_deselect_all">सभी चुनें / अचयनित करें</string>
+    <string name="top_bar_import_video">वीडियो आयात करें</string>
 </resources>

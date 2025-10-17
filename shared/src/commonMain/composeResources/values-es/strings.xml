@@ -118,7 +118,7 @@
     <string name="download">Descargar</string>
     <!-- Settings Screen -->
     <string name="settings">Configuración</string>
-    <string name="customize_your_experience">Personaliza tu experiencia</string>
+    <string name="customize_your_experience">Desplázate hacia abajo para ver todos los ajustes</string>
     <string name="language_and_region">Idioma y Región</string>
     <string name="transcription_language">Idioma de Transcripción</string>
     <string name="language_used_for_voice_transcription">Idioma usado para la transcripción de voz</string>
@@ -186,4 +186,7 @@
     <string name="batch_export_settings_no_folder_selected">Selección de carpeta cancelada</string>
     <!-- Import -->
     <string name="import_failed_title">Importación fallida</string>
+    <string name="ok">Aceptar</string>
+    <string name="select_deselect_all">Seleccionar / Deseleccionar todo</string>
+    <string name="top_bar_import_video">Importar vídeo</string>
 </resources>

@@ -114,7 +114,7 @@
     <string name="download">ડાઉનલોડ</string>
     <!-- Settings Screen -->
     <string name="settings">સેટિંગ્સ</string>
-    <string name="customize_your_experience">તમારા અનુભવને કસ્ટમાઇઝ કરો</string>
+    <string name="customize_your_experience">બધી સેટિંગ્સ જોવા માટે નીચે સ્ક્રોલ કરો</string>
     <string name="language_and_region">ભાષા અને પ્રદેશ</string>
     <string name="transcription_language">ટ્રાન્સક્રિપ્શન ભાષા</string>
     <string name="language_used_for_voice_transcription">વૉઇસ ટ્રાન્સક્રિપ્શન માટે ઉપયોગમાં લેવાતી ભાષા</string>
@@ -182,4 +182,7 @@
     <string name="batch_export_settings_no_folder_selected">ફોલ્ડર પસંદગી રદ કરવામાં આવી</string>
     <!-- Import -->
     <string name="import_failed_title">આયાત નિષ્ફળ</string>
+    <string name="ok">ઠીક છે</string>
+    <string name="select_deselect_all">બધું પસંદ કરો / પસંદગી દૂર કરો</string>
+    <string name="top_bar_import_video">વિડિયો આયાત કરો</string>
 </resources>

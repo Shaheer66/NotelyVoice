@@ -118,7 +118,7 @@
     <string name="download">Tải xuống</string>
     <!-- Settings Screen -->
     <string name="settings">Cài đặt</string>
-    <string name="customize_your_experience">Tùy chỉnh trải nghiệm của bạn</string>
+    <string name="customize_your_experience">Cuộn xuống để xem tất cả cài đặt</string>
     <string name="language_and_region">Ngôn ngữ &amp; Khu vực</string>
     <string name="transcription_language">Ngôn ngữ chuyển đổi văn bản</string>
     <string name="language_used_for_voice_transcription">Ngôn ngữ được sử dụng để chuyển đổi giọng nói thành văn bản</string>
@@ -184,7 +184,8 @@
     <string name="batch_export_settings_how_to_3">3.</string>
     <string name="batch_export_settings_error_occurred">đã xảy ra lỗi khi xuất</string>
     <string name="batch_export_settings_no_folder_selected">Đã hủy chọn thư mục</string>
-
     <!-- Import -->
-    <string name="import_failed_title">Nhập Thất Bại</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Chọn / Bỏ chọn tất cả</string>
+    <string name="top_bar_import_video">Nhập video</string>
 </resources>

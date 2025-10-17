@@ -114,7 +114,7 @@
     <string name="download">ڈاؤن لوڈ</string>
     <!-- Settings Screen -->
     <string name="settings">ترتیبات</string>
-    <string name="customize_your_experience">اپنے تجربے کو اپنی مرضی کے مطابق بنائیں</string>
+    <string name="customize_your_experience">تمام ترتیبات دیکھنے کے لیے نیچے سکرول کریں</string>
     <string name="language_and_region">زبان اور علاقہ</string>
     <string name="transcription_language">نقل کی زبان</string>
     <string name="language_used_for_voice_transcription">آواز کی نقل کے لیے استعمال ہونے والی زبان</string>
@@ -182,4 +182,7 @@
     <string name="batch_export_settings_no_folder_selected">فولڈر کا انتخاب منسوخ کر دیا گیا</string>
     <!-- Import -->
     <string name="import_failed_title">درآمد ناکام</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="select_deselect_all">سب منتخب کریں / غیر منتخب کریں</string>
+    <string name="top_bar_import_video">ویڈیو درآمد کریں</string>
 </resources>
