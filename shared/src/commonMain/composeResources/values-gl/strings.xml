@@ -189,4 +189,11 @@
     <string name="ok">Aceptar</string>
     <string name="select_deselect_all">Seleccionar / Deseleccionar todo</string>
     <string name="top_bar_import_video">Importar vídeo</string>
+    <string name="question_mark">signo de interrogación</string>
+    <string name="ai_model_title">Que é un modelo de IA?</string>
+    <string name="ai_model_description">Un modelo de IA é como un cerebro dixital que foi adestrado para entender a fala e convertela en texto escrito. Os diferentes modelos teñen diferentes fortalezas - algúns son máis rápidos, algúns son máis precisos. Escolle o que se adapte ás túas necesidades.</string>
+    <string name="standard_model_title">Modelo estándar (multilingüe)</string>
+    <string name="standard_model_description">Esta é a opción máis rápida e lixeira que funciona ben para o uso diario. Converte rapidamente a túa voz en texto e non ocupa moito espazo no teu teléfono. Perfecto se queres resultados rápidos e usas varios idiomas. Pensa nel como un coche compacto - eficiente e fai o traballo.</string>
+    <string name="optimized_model_title">Modelo optimizado (multilingüe)</string>
+    <string name="optimized_model_description">Esta é a opción máis potente que che ofrece as transcricións máis precisas posibles. Tarda un pouco máis e usa máis almacenamento, pero captura máis palabras correctamente, especialmente con acentos ou ruído de fondo. Como un coche de luxo - máis grande e máis lento, pero ofrece calidade premium. Nota: non admite hindi/gujarati.</string>
 </resources>

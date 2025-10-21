@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Pilih / Nyahpilih Semua</string>
     <string name="top_bar_import_video">Import Video</string>
+    <string name="question_mark">tanda tanya</string>
+    <string name="ai_model_title">Apakah model AI?</string>
+    <string name="ai_model_description">Model AI adalah seperti otak digital yang telah dilatih untuk memahami pertuturan dan menukarkannya kepada teks bertulis. Model yang berbeza mempunyai kekuatan yang berbeza - ada yang lebih pantas, ada yang lebih tepat. Pilih yang sesuai dengan keperluan anda.</string>
+    <string name="standard_model_title">Model standard (pelbagai bahasa)</string>
+    <string name="standard_model_description">Ini adalah pilihan yang lebih pantas dan ringan yang berfungsi dengan baik untuk kegunaan harian. Ia menukar pertuturan anda kepada teks dengan cepat dan tidak mengambil banyak ruang pada telefon anda. Sempurna jika anda mahukan hasil pantas dan menggunakan pelbagai bahasa. Fikirkannya seperti kereta kompak - cekap dan menyelesaikan kerja.</string>
+    <string name="optimized_model_title">Model Dioptimumkan (Pelbagai Bahasa)</string>
+    <string name="optimized_model_description">Ini adalah pilihan yang lebih berkuasa yang memberikan anda transkripsi paling tepat yang mungkin. Ia mengambil masa lebih lama sedikit dan menggunakan lebih banyak storan, tetapi menangkap lebih banyak perkataan dengan betul, terutamanya dengan loghat atau bunyi latar belakang. Seperti kereta mewah - lebih besar dan lebih perlahan, tetapi memberikan kualiti premium. Nota: tidak menyokong Hindi/Gujarati.</string>
 </resources>

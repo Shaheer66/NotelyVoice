@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">すべて選択 / 選択解除</string>
     <string name="top_bar_import_video">動画をインポート</string>
+    <string name="question_mark">疑問符</string>
+    <string name="ai_model_title">AIモデルとは？</string>
+    <string name="ai_model_description">AIモデルは、音声を理解し、それを書かれたテキストに変換するように訓練されたデジタル脳のようなものです。異なるモデルには異なる強みがあります - より速いものもあれば、より正確なものもあります。あなたのニーズに合ったものを選んでください。</string>
+    <string name="standard_model_title">標準モデル（多言語）</string>
+    <string name="standard_model_description">これは、日常的な使用に適した、より高速で軽量なオプションです。音声をすばやくテキストに変換し、携帯電話のスペースをあまり占有しません。迅速な結果が必要で、複数の言語を使用する場合に最適です。コンパクトカーのように考えてください - 効率的で仕事を成し遂げます。</string>
+    <string name="optimized_model_title">最適化されたモデル（多言語）</string>
+    <string name="optimized_model_description">これは、可能な限り最も正確な文字起こしを提供する、より強力なオプションです。少し時間がかかり、より多くのストレージを使用しますが、特にアクセントやバックグラウンドノイズがある場合に、より多くの単語を正確にキャッチします。高級車のように - より大きく、より遅いですが、プレミアム品質を提供します。注：ヒンディー語/グジャラート語はサポートしていません。</string>
 </resources>

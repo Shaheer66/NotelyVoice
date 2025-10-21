@@ -189,4 +189,11 @@
     <string name="ok">Tamam</string>
     <string name="select_deselect_all">Tümünü Seç / Seçimi Kaldır</string>
     <string name="top_bar_import_video">Video İçe Aktar</string>
+    <string name="question_mark">soru işareti</string>
+    <string name="ai_model_title">Yapay zeka modeli nedir?</string>
+    <string name="ai_model_description">Bir yapay zeka modeli, konuşmayı anlamak ve yazılı metne dönüştürmek için eğitilmiş dijital bir beyin gibidir. Farklı modellerin farklı güçlü yönleri vardır - bazıları daha hızlı, bazıları daha doğrudur. İhtiyaçlarınıza uygun olanı seçin.</string>
+    <string name="standard_model_title">Standart model (çok dilli)</string>
+    <string name="standard_model_description">Bu, günlük kullanım için iyi çalışan daha hızlı, daha hafif seçenektir. Konuşmanızı hızla metne dönüştürür ve telefonunuzda fazla yer kaplamaz. Hızlı sonuçlar istiyorsanız ve birden fazla dil kullanıyorsanız mükemmeldir. Onu kompakt bir araba gibi düşünün - verimli ve işi halleder.</string>
+    <string name="optimized_model_title">Optimize Edilmiş Model (Çok Dilli)</string>
+    <string name="optimized_model_description">Bu, size mümkün olan en doğru transkriptleri veren daha güçlü seçenektir. Biraz daha uzun sürer ve daha fazla depolama kullanır, ancak özellikle aksan veya arka plan gürültüsü ile daha fazla kelimeyi doğru yakalar. Lüks bir araba gibi - daha büyük ve daha yavaş, ancak premium kalite sunar. Not: Hintçe/Güceratça desteklemiyor.</string>
 </resources>

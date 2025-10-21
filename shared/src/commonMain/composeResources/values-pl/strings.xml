@@ -191,4 +191,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Zaznacz / Odznacz wszystko</string>
     <string name="top_bar_import_video">Importuj wideo</string>
+    <string name="question_mark">znak zapytania</string>
+    <string name="ai_model_title">Czym jest model AI?</string>
+    <string name="ai_model_description">Model AI jest jak cyfrowy mózg, który został wytrenowany do rozumienia mowy i przekształcania jej w pisemny tekst. Różne modele mają różne mocne strony - niektóre są szybsze, niektóre są dokładniejsze. Wybierz ten, który odpowiada Twoim potrzebom.</string>
+    <string name="standard_model_title">Model standardowy (wielojęzyczny)</string>
+    <string name="standard_model_description">To szybsza, lżejsza opcja, która dobrze sprawdza się w codziennym użytkowaniu. Szybko przekształca Twoją mowę w tekst i nie zajmuje dużo miejsca w telefonie. Idealna, jeśli chcesz szybkich rezultatów i korzystasz z wielu języków. Pomyśl o niej jak o kompaktowym samochodzie - wydajna i wykonuje zadanie.</string>
+    <string name="optimized_model_title">Model zoptymalizowany (wielojęzyczny)</string>
+    <string name="optimized_model_description">To potężniejsza opcja, która zapewnia najbardziej dokładne możliwe transkrypcje. Trwa nieco dłużej i wykorzystuje więcej miejsca, ale prawidłowo wychwytuje więcej słów, zwłaszcza z akcentami lub hałasem w tle. Jak luksusowy samochód - większy i wolniejszy, ale zapewnia najwyższą jakość. Uwaga: nie obsługuje hindi/gudżarati.</string>
 </resources>

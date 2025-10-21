@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Valitse / Poista valinta kaikista</string>
     <string name="top_bar_import_video">Tuo video</string>
+    <string name="question_mark">kysymysmerkki</string>
+    <string name="ai_model_title">Mikä on tekoälymalli?</string>
+    <string name="ai_model_description">Tekoälymalli on kuin digitaalinen aivot, joka on koulutettu ymmärtämään puhetta ja muuttamaan se kirjoitetuksi tekstiksi. Eri malleilla on eri vahvuudet - jotkut ovat nopeampia, jotkut tarkempia. Valitse tarpeisiisi sopiva.</string>
+    <string name="standard_model_title">Vakiomalli (monikielinen)</string>
+    <string name="standard_model_description">Tämä on nopeampi, kevyempi vaihtoehto, joka toimii hyvin päivittäisessä käytössä. Se muuntaa puheesi nopeasti tekstiksi eikä vie paljon tilaa puhelimestasi. Täydellinen, jos haluat nopeita tuloksia ja käytät useita kieliä. Ajattele sitä kuin pientä autoa - tehokas ja tekee työn.</string>
+    <string name="optimized_model_title">Optimoitu malli (monikielinen)</string>
+    <string name="optimized_model_description">Tämä on tehokkaampi vaihtoehto, joka antaa tarkimmat mahdolliset transkriptiot. Se kestää hieman kauemmin ja käyttää enemmän tallennustilaa, mutta tunnistaa enemmän sanoja oikein, erityisesti aksenttien tai taustamelun kanssa. Kuin luksusauto - isompi ja hitaampi, mutta tarjoaa premium-laatua. Huomaa: ei tue hindiä/gudžaratia.</string>
 </resources>

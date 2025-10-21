@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Alle auswählen / abwählen</string>
     <string name="top_bar_import_video">Video importieren</string>
+    <string name="question_mark">Fragezeichen</string>
+    <string name="ai_model_title">Was ist ein KI-Modell?</string>
+    <string name="ai_model_description">Ein KI-Modell ist wie ein digitales Gehirn, das trainiert wurde, Sprache zu verstehen und in geschriebenen Text umzuwandeln. Verschiedene Modelle haben unterschiedliche Stärken - einige sind schneller, einige sind genauer. Wählen Sie das Modell, das Ihren Anforderungen entspricht.</string>
+    <string name="standard_model_title">Standardmodell (mehrsprachig)</string>
+    <string name="standard_model_description">Dies ist die schnellere, leichtere Option, die für den täglichen Gebrauch gut funktioniert. Es wandelt Ihre Sprache schnell in Text um und nimmt nicht viel Platz auf Ihrem Telefon ein. Perfekt, wenn Sie schnelle Ergebnisse wünschen und mehrere Sprachen verwenden. Stellen Sie es sich wie ein kompaktes Auto vor - effizient und erledigt die Arbeit.</string>
+    <string name="optimized_model_title">Optimiertes Modell (mehrsprachig)</string>
+    <string name="optimized_model_description">Dies ist die leistungsstärkere Option, die Ihnen die genauesten Transkriptionen bietet. Es dauert etwas länger und verwendet mehr Speicher, erfasst aber mehr Wörter korrekt, insbesondere bei Akzenten oder Hintergrundgeräuschen. Wie ein Luxusauto - größer und langsamer, aber liefert Premium-Qualität. Hinweis: unterstützt kein Hindi/Gujarati.</string>
 </resources>

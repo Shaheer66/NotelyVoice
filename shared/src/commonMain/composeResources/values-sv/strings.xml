@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Markera / Avmarkera alla</string>
     <string name="top_bar_import_video">Importera video</string>
+    <string name="question_mark">frågetecken</string>
+    <string name="ai_model_title">Vad är en AI-modell?</string>
+    <string name="ai_model_description">En AI-modell är som en digital hjärna som har tränats för att förstå tal och konvertera det till skriven text. Olika modeller har olika styrkor - vissa är snabbare, vissa är mer exakta. Välj den som matchar dina behov.</string>
+    <string name="standard_model_title">Standardmodell (flerspråkig)</string>
+    <string name="standard_model_description">Det här är det snabbare, lättare alternativet som fungerar bra för daglig användning. Den konverterar snabbt ditt tal till text och tar inte upp mycket utrymme på din telefon. Perfekt om du vill ha snabba resultat och använder flera språk. Tänk på den som en kompakt bil - effektiv och får jobbet gjort.</string>
+    <string name="optimized_model_title">Optimerad modell (flerspråkig)</string>
+    <string name="optimized_model_description">Det här är det kraftfullare alternativet som ger dig de mest exakta möjliga transkriptionerna. Den tar lite längre tid och använder mer lagring, men fångar fler ord korrekt, särskilt med accenter eller bakgrundsljud. Som en lyxbil - större och långsammare, men levererar premiumkvalitet. Obs: stöder inte hindi/gujarati.</string>
 </resources>

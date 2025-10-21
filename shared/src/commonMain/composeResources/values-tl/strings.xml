@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Piliin / I-deselect Lahat</string>
     <string name="top_bar_import_video">Mag-import ng Video</string>
+    <string name="question_mark">tandang pananong</string>
+    <string name="ai_model_title">Ano ang AI model?</string>
+    <string name="ai_model_description">Ang AI model ay parang digital na utak na sinanay upang maintindihan ang pagsasalita at i-convert ito sa nakasulat na teksto. Ang iba\'t ibang modelo ay may iba\'t ibang lakas - ang iba ay mas mabilis, ang iba ay mas tumpak. Piliin ang tumutugma sa iyong pangangailangan.</string>
+    <string name="standard_model_title">Standard na modelo (multilinggwal)</string>
+    <string name="standard_model_description">Ito ang mas mabilis, mas magaan na opsyon na gumagana nang maayos para sa pang-araw-araw na paggamit. Mabilis nitong kino-convert ang iyong pagsasalita sa teksto at hindi kumukuha ng maraming espasyo sa iyong telepono. Perpekto kung gusto mo ng mabilis na resulta at gumagamit ng maraming wika. Isipin ito bilang isang compact na kotse - epektibo at natapos ang trabaho.</string>
+    <string name="optimized_model_title">Na-optimize na Modelo (Multilinggwal)</string>
+    <string name="optimized_model_description">Ito ang mas makapangyarihang opsyon na nagbibigay sa iyo ng pinakatumpak na mga transkripsyon na posible. Mas matagal ng kaunti at gumagamit ng mas maraming storage, ngunit nahuhuli ang mas maraming salita nang tama, lalo na sa mga accent o background noise. Tulad ng isang luxury na kotse - mas malaki at mas mabagal, ngunit naghahatid ng premium na kalidad. Tandaan: hindi sumusuporta sa Hindi/Gujarati.</string>
 </resources>

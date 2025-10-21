@@ -189,4 +189,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Alles selecteren / deselecteren</string>
     <string name="top_bar_import_video">Video importeren</string>
+    <string name="question_mark">vraagteken</string>
+    <string name="ai_model_title">Wat is een AI-model?</string>
+    <string name="ai_model_description">Een AI-model is als een digitale hersenen die is getraind om spraak te begrijpen en om te zetten in geschreven tekst. Verschillende modellen hebben verschillende sterke punten - sommige zijn sneller, sommige zijn nauwkeuriger. Kies degene die bij uw behoeften past.</string>
+    <string name="standard_model_title">Standaardmodel (meertalig)</string>
+    <string name="standard_model_description">Dit is de snellere, lichtere optie die goed werkt voor dagelijks gebruik. Het zet uw spraak snel om in tekst en neemt niet veel ruimte in beslag op uw telefoon. Perfect als u snelle resultaten wilt en meerdere talen gebruikt. Zie het als een compacte auto - efficiënt en krijgt het werk gedaan.</string>
+    <string name="optimized_model_title">Geoptimaliseerd model (meertalig)</string>
+    <string name="optimized_model_description">Dit is de krachtigere optie die u de meest nauwkeurige transcripties geeft. Het duurt iets langer en gebruikt meer opslagruimte, maar vangt meer woorden correct op, vooral met accenten of achtergrondgeluid. Zoals een luxe auto - groter en langzamer, maar levert premium kwaliteit. Let op: ondersteunt geen Hindi/Gujarati.</string>
 </resources>

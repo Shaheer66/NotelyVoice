@@ -188,4 +188,11 @@
     <string name="ok">OK</string>
     <string name="select_deselect_all">Chọn / Bỏ chọn tất cả</string>
     <string name="top_bar_import_video">Nhập video</string>
+    <string name="question_mark">dấu hỏi</string>
+    <string name="ai_model_title">Mô hình AI là gì?</string>
+    <string name="ai_model_description">Mô hình AI giống như một bộ não kỹ thuật số đã được huấn luyện để hiểu lời nói và chuyển đổi thành văn bản viết. Các mô hình khác nhau có điểm mạnh khác nhau - một số nhanh hơn, một số chính xác hơn. Chọn mô hình phù hợp với nhu cầu của bạn.</string>
+    <string name="standard_model_title">Mô hình tiêu chuẩn (đa ngôn ngữ)</string>
+    <string name="standard_model_description">Đây là tùy chọn nhanh hơn, nhẹ hơn hoạt động tốt cho việc sử dụng hàng ngày. Nó nhanh chóng chuyển đổi lời nói của bạn thành văn bản và không chiếm nhiều dung lượng trên điện thoại của bạn. Hoàn hảo nếu bạn muốn kết quả nhanh và sử dụng nhiều ngôn ngữ. Hãy nghĩ về nó như một chiếc xe nhỏ gọn - hiệu quả và hoàn thành công việc.</string>
+    <string name="optimized_model_title">Mô hình được tối ưu hóa (đa ngôn ngữ)</string>
+    <string name="optimized_model_description">Đây là tùy chọn mạnh mẽ hơn mang lại cho bạn bản sao chép chính xác nhất có thể. Nó mất nhiều thời gian hơn một chút và sử dụng nhiều bộ nhớ hơn, nhưng bắt được nhiều từ chính xác hơn, đặc biệt là với giọng địa phương hoặc tiếng ồn nền. Giống như một chiếc xe sang - to hơn và chậm hơn, nhưng mang lại chất lượng cao cấp. Lưu ý: không hỗ trợ tiếng Hindi/Gujarati.</string>
 </resources>
