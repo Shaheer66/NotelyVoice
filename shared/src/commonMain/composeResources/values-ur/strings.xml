@@ -114,7 +114,7 @@
     <string name="download">ڈاؤن لوڈ</string>
     <!-- Settings Screen -->
     <string name="settings">ترتیبات</string>
-    <string name="customize_your_experience">اپنے تجربے کو اپنی مرضی کے مطابق بنائیں</string>
+    <string name="customize_your_experience">تمام ترتیبات دیکھنے کے لیے نیچے سکرول کریں</string>
     <string name="language_and_region">زبان اور علاقہ</string>
     <string name="transcription_language">نقل کی زبان</string>
     <string name="language_used_for_voice_transcription">آواز کی نقل کے لیے استعمال ہونے والی زبان</string>
@@ -182,4 +182,22 @@
     <string name="batch_export_settings_no_folder_selected">فولڈر کا انتخاب منسوخ کر دیا گیا</string>
     <!-- Import -->
     <string name="import_failed_title">درآمد ناکام</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="select_deselect_all">سب منتخب کریں / غیر منتخب کریں</string>
+    <string name="top_bar_import_video">ویڈیو درآمد کریں</string>
+    <string name="question_mark">سوالیہ نشان</string>
+    <string name="ai_model_title">AI ماڈل کیا ہے؟</string>
+    <string name="ai_model_description">AI ماڈل ایک ڈیجیٹل دماغ کی طرح ہے جسے تقریر کو سمجھنے اور اسے تحریری متن میں تبدیل کرنے کے لیے تربیت دی گئی ہے۔ مختلف ماڈلز کی مختلف طاقتیں ہیں - کچھ تیز ہیں، کچھ زیادہ درست ہیں۔ وہ منتخب کریں جو آپ کی ضروریات سے میل کھاتا ہو۔</string>
+    <string name="standard_model_title">معیاری ماڈل (کثیر لسانی)</string>
+    <string name="standard_model_description">یہ تیز، ہلکا آپشن ہے جو روزمرہ کے استعمال کے لیے اچھی طرح کام کرتا ہے۔ یہ آپ کی تقریر کو تیزی سے متن میں تبدیل کرتا ہے اور آپ کے فون پر زیادہ جگہ نہیں لیتا۔ بہترین ہے اگر آپ تیز نتائج چاہتے ہیں اور متعدد زبانیں استعمال کرتے ہیں۔ اسے ایک کمپیکٹ کار کی طرح سوچیں - موثر اور کام مکمل کرتی ہے۔</string>
+    <string name="optimized_model_title">بہتر بنایا گیا ماڈل (کثیر لسانی)</string>
+    <string name="optimized_model_description">یہ زیادہ طاقتور آپشن ہے جو آپ کو ممکنہ طور پر سب سے درست نقل فراہم کرتا ہے۔ اس میں تھوڑا زیادہ وقت لگتا ہے اور زیادہ سٹوریج استعمال ہوتی ہے، لیکن خاص طور پر لہجے یا پس منظر کے شور کے ساتھ زیادہ الفاظ کو صحیح طریقے سے پکڑتا ہے۔ ایک عیش و آرام کی کار کی طرح - بڑی اور سست، لیکن پریمیم معیار فراہم کرتی ہے۔ نوٹ: ہندی/گجراتی کی حمایت نہیں کرتا۔</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">تیز رفتار کارکردگی اور چھوٹا فائل سائز\nتمام زبانوں کی معاونت کرتا ہے</string>
+    <string name="optimized_model_setting_desc">دستیاب بلند ترین درستگی\nبڑا فائل سائز، سست رفتار کارکردگی\nہندی/گجراتی کے علاوہ تمام زبانوں کی معاونت کرتا ہے</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">ماڈل کا انتخاب</string>
+    <string name="settings_model_selection_text">AI ماڈل</string>
+    <string name="settings_model_selection_description">وہ ماڈل منتخب کریں جو آپ کی ضروریات کے لیے بہترین ہو</string>
 </resources>

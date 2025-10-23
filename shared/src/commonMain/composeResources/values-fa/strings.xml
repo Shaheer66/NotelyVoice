@@ -118,7 +118,7 @@
     <string name="download">دانلود</string>
     <!-- Settings Screen -->
     <string name="settings">تنظیمات</string>
-    <string name="customize_your_experience">تجربه خود را شخصی‌سازی کنید</string>
+    <string name="customize_your_experience">برای مشاهده همه تنظیمات به پایین بروید</string>
     <string name="language_and_region">زبان و منطقه</string>
     <string name="transcription_language">زبان رونویسی</string>
     <string name="language_used_for_voice_transcription">زبان مورد استفاده برای رونویسی صوت</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">انتخاب پوشه لغو شد</string>
     <!-- Import -->
     <string name="import_failed_title">ورودی ناموفق بود</string>
+    <string name="ok">تأیید</string>
+    <string name="select_deselect_all">انتخاب / لغو انتخاب همه</string>
+    <string name="top_bar_import_video">وارد کردن ویدیو</string>
+    <string name="question_mark">علامت سؤال</string>
+    <string name="ai_model_title">مدل هوش مصنوعی چیست؟</string>
+    <string name="ai_model_description">یک مدل هوش مصنوعی مانند یک مغز دیجیتال است که برای درک گفتار و تبدیل آن به متن نوشتاری آموزش دیده است. مدل‌های مختلف نقاط قوت متفاوتی دارند - برخی سریع‌تر هستند، برخی دقیق‌تر. آنی را انتخاب کنید که با نیازهای شما مطابقت دارد.</string>
+    <string name="standard_model_title">مدل استاندارد (چندزبانه)</string>
+    <string name="standard_model_description">این گزینه سریع‌تر و سبک‌تر است که برای استفاده روزمره مناسب است. به سرعت گفتار شما را به متن تبدیل می‌کند و فضای زیادی در تلفن شما اشغال نمی‌کند. عالی است اگر نتایج سریع می‌خواهید و از چندین زبان استفاده می‌کنید. مانند یک خودروی کوچک فکر کنید - کارآمد و کار را انجام می‌دهد.</string>
+    <string name="optimized_model_title">مدل بهینه‌شده (چندزبانه)</string>
+    <string name="optimized_model_description">این گزینه قدرتمندتر است که دقیق‌ترین رونوشت‌هایممکن را به شما ارائه می‌دهد. کمی بیشتر طول می‌کشد و فضای ذخیره‌سازی بیشتری استفاده می‌کند، اما کلمات بیشتری را به درستی می‌گیرد، به‌ویژه با لهجه‌ها یا نویز پس‌زمینه. مانند یک خودروی لوکس - بزرگ‌تر و کندتر، اما کیفیت ممتاز ارائه می‌دهد. توجه: از هندی/گجراتی پشتیبانی نمی‌کند.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">عملکرد سریع‌تر و حجم فایل کوچک‌تر\nپشتیبانی از همه زبان‌ها</string>
+    <string name="optimized_model_setting_desc">بالاترین دقت موجود\nحجم فایل بزرگ‌تر، عملکرد کندتر\nپشتیبانی از همه زبان‌ها به جز هندی/گجراتی</string>
+    <string name="standard_model_setting_size">۱۴۲ مگابایت</string>
+    <string name="optimized_model_setting_size">۴۶۵ مگابایت</string>
+    <string name="settings_model_selection">انتخاب مدل</string>
+    <string name="settings_model_selection_text">مدل هوش مصنوعی</string>
+    <string name="settings_model_selection_description">مدلی را انتخاب کنید که بهترین تطابق با نیازهای شما دارد</string>
 </resources>

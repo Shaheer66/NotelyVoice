@@ -118,7 +118,7 @@
     <string name="download">Muat Turun</string>
     <!-- Settings Screen -->
     <string name="settings">Tetapan</string>
-    <string name="customize_your_experience">Sesuaikan pengalaman anda</string>
+    <string name="customize_your_experience">Tatal ke bawah untuk melihat semua tetapan</string>
     <string name="language_and_region">Bahasa &amp; Wilayah</string>
     <string name="transcription_language">Bahasa Transkripsi</string>
     <string name="language_used_for_voice_transcription">Bahasa yang digunakan untuk transkripsi suara</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">Pemilihan folder dibatalkan</string>
     <!-- Import -->
     <string name="import_failed_title">Import Gagal</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Pilih / Nyahpilih Semua</string>
+    <string name="top_bar_import_video">Import Video</string>
+    <string name="question_mark">tanda tanya</string>
+    <string name="ai_model_title">Apakah model AI?</string>
+    <string name="ai_model_description">Model AI adalah seperti otak digital yang telah dilatih untuk memahami pertuturan dan menukarkannya kepada teks bertulis. Model yang berbeza mempunyai kekuatan yang berbeza - ada yang lebih pantas, ada yang lebih tepat. Pilih yang sesuai dengan keperluan anda.</string>
+    <string name="standard_model_title">Model standard (pelbagai bahasa)</string>
+    <string name="standard_model_description">Ini adalah pilihan yang lebih pantas dan ringan yang berfungsi dengan baik untuk kegunaan harian. Ia menukar pertuturan anda kepada teks dengan cepat dan tidak mengambil banyak ruang pada telefon anda. Sempurna jika anda mahukan hasil pantas dan menggunakan pelbagai bahasa. Fikirkannya seperti kereta kompak - cekap dan menyelesaikan kerja.</string>
+    <string name="optimized_model_title">Model Dioptimumkan (Pelbagai Bahasa)</string>
+    <string name="optimized_model_description">Ini adalah pilihan yang lebih berkuasa yang memberikan anda transkripsi paling tepat yang mungkin. Ia mengambil masa lebih lama sedikit dan menggunakan lebih banyak storan, tetapi menangkap lebih banyak perkataan dengan betul, terutamanya dengan loghat atau bunyi latar belakang. Seperti kereta mewah - lebih besar dan lebih perlahan, tetapi memberikan kualiti premium. Nota: tidak menyokong Hindi/Gujarati.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Prestasi lebih pantas dan saiz fail lebih kecil\nMenyokong semua bahasa</string>
+    <string name="optimized_model_setting_desc">Ketepatan tertinggi yang tersedia\nSaiz fail lebih besar, prestasi lebih perlahan\nMenyokong semua bahasa kecuali Hindi/Gujarati</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">Pemilihan Model</string>
+    <string name="settings_model_selection_text">Model AI</string>
+    <string name="settings_model_selection_description">Pilih model yang paling sesuai dengan keperluan anda</string>
 </resources>

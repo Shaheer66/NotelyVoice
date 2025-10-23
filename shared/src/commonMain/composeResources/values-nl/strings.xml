@@ -118,7 +118,7 @@
     <string name="download">Downloaden</string>
     <!-- Settings Screen -->
     <string name="settings">Instellingen</string>
-    <string name="customize_your_experience">Pas uw ervaring aan</string>
+    <string name="customize_your_experience">Scroll naar beneden om alle instellingen te zien</string>
     <string name="language_and_region">Taal &amp; Regio</string>
     <string name="transcription_language">Transcriptietaal</string>
     <string name="language_used_for_voice_transcription">Taal gebruikt voor spraaктranscriptie</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">Mapselectie geannuleerd</string>
     <!-- Import -->
     <string name="import_failed_title">Importeren mislukt</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Alles selecteren / deselecteren</string>
+    <string name="top_bar_import_video">Video importeren</string>
+    <string name="question_mark">vraagteken</string>
+    <string name="ai_model_title">Wat is een AI-model?</string>
+    <string name="ai_model_description">Een AI-model is als een digitale hersenen die is getraind om spraak te begrijpen en om te zetten in geschreven tekst. Verschillende modellen hebben verschillende sterke punten - sommige zijn sneller, sommige zijn nauwkeuriger. Kies degene die bij uw behoeften past.</string>
+    <string name="standard_model_title">Standaardmodel (meertalig)</string>
+    <string name="standard_model_description">Dit is de snellere, lichtere optie die goed werkt voor dagelijks gebruik. Het zet uw spraak snel om in tekst en neemt niet veel ruimte in beslag op uw telefoon. Perfect als u snelle resultaten wilt en meerdere talen gebruikt. Zie het als een compacte auto - efficiënt en krijgt het werk gedaan.</string>
+    <string name="optimized_model_title">Geoptimaliseerd model (meertalig)</string>
+    <string name="optimized_model_description">Dit is de krachtigere optie die u de meest nauwkeurige transcripties geeft. Het duurt iets langer en gebruikt meer opslagruimte, maar vangt meer woorden correct op, vooral met accenten of achtergrondgeluid. Zoals een luxe auto - groter en langzamer, maar levert premium kwaliteit. Let op: ondersteunt geen Hindi/Gujarati.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Snellere prestaties en kleinere bestandsgrootte\nOndersteunt alle talen</string>
+    <string name="optimized_model_setting_desc">Hoogste beschikbare nauwkeurigheid\nGrootere bestandsgrootte, langzamere prestaties\nOndersteunt alle talen behalve Hindi/Gujarati</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">Modelselectie</string>
+    <string name="settings_model_selection_text">AI-model</string>
+    <string name="settings_model_selection_description">Kies het model dat het beste bij uw behoeften past</string>
 </resources>

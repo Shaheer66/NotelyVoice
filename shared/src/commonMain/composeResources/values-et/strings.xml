@@ -118,7 +118,7 @@
     <string name="download">Laadi alla</string>
     <!-- Settings Screen -->
     <string name="settings">Seadistused</string>
-    <string name="customize_your_experience">Kohanda kasutajaliides selliseks, nagu soovid</string>
+    <string name="customize_your_experience">Keri alla, et näha kõiki seadeid</string>
     <string name="language_and_region">Keel ja piirkond</string>
     <string name="transcription_language">Ümberkirjutuse keel</string>
     <string name="language_used_for_voice_transcription">Heli ümberkirjutuseks kasutatud keel</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">Kausta valik tühistati</string>
     <!-- Import -->
     <string name="import_failed_title">Import ebaõnnestus</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Vali / Tühista kõik</string>
+    <string name="top_bar_import_video">Impordi video</string>
+    <string name="question_mark">küsimärk</string>
+    <string name="ai_model_title">Mis on AI mudel?</string>
+    <string name="ai_model_description">AI mudel on nagu digitaalne aju, mis on koolitatud kõnet mõistma ja seda kirjalikuks tekstiks teisendama. Erinevatel mudelitel on erinevad tugevused - mõned on kiiremad, mõned täpsemad. Vali see, mis sobib sinu vajadustega.</string>
+    <string name="standard_model_title">Standardmudel (mitmekeelne)</string>
+    <string name="standard_model_description">See on kiirem ja kergem valik, mis sobib igapäevaseks kasutamiseks. See teisendab su kõne kiiresti tekstiks ega võta telefonis palju ruumi. Ideaalne, kui soovid kiireid tulemusi ja kasutad mitut keelt. Mõtle sellele nagu kompaktsele autole - tõhus ja teeb töö ära.</string>
+    <string name="optimized_model_title">Optimeeritud mudel (mitmekeelne)</string>
+    <string name="optimized_model_description">See on võimsam valik, mis annab sulle kõige täpsemad võimalikud transkriptsioonid. See võtab veidi rohkem aega ja kasutab rohkem salvestusruumi, kuid tabab rohkem sõnu õigesti, eriti aktsendiga või taustamüra korral. Nagu luksusauto - suurem ja aeglasem, kuid pakub ülitasemel kvaliteeti. Märkus: ei toeta hindi/gudžarati keelt.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Kiirem jõudlus ja väiksem failisuurus\nToetab kõiki keeli</string>
+    <string name="optimized_model_setting_desc">Kõrgeim saadaolev täpsus\nSuurem failisuurus, aeglasem jõudlus\nToetab kõiki keeli peale hindi/gudžarati</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">Mudeli valik</string>
+    <string name="settings_model_selection_text">AI mudel</string>
+    <string name="settings_model_selection_description">Valige oma vajadustele sobiv mudel</string>
 </resources>

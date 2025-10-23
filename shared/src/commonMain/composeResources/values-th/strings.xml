@@ -118,7 +118,7 @@
     <string name="download">ดาวน์โหลด</string>
     <!-- Settings Screen -->
     <string name="settings">การตั้งค่า</string>
-    <string name="customize_your_experience">ปรับแต่งประสบการณ์ของคุณ</string>
+    <string name="customize_your_experience">เลื่อนลงเพื่อดูการตั้งค่าทั้งหมด</string>
     <string name="language_and_region">ภาษาและภูมิภาค</string>
     <string name="transcription_language">ภาษาการแปลงข้อความ</string>
     <string name="language_used_for_voice_transcription">ภาษาที่ใช้สำหรับการแปลงเสียงเป็นข้อความ</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">การเลือกโฟลเดอร์ถูกยกเลิก</string>
     <!-- Import -->
     <string name="import_failed_title">การนำเข้าล้มเหลว</string>
+    <string name="ok">ตกลง</string>
+    <string name="select_deselect_all">เลือก / ยกเลิกการเลือกทั้งหมด</string>
+    <string name="top_bar_import_video">นำเข้าวิดีโอ</string>
+    <string name="question_mark">เครื่องหมายคำถาม</string>
+    <string name="ai_model_title">โมเดล AI คืออะไร?</string>
+    <string name="ai_model_description">โมเดล AI เปรียบเสมือนสมองดิจิทัลที่ได้รับการฝึกฝนให้เข้าใจการพูดและแปลงเป็นข้อความที่เขียน โมเดลต่างๆ มีจุดแข็งที่แตกต่างกัน - บางตัวเร็วกว่า บางตัวแม่นยำกว่า เลือกตัวที่ตรงกับความต้องการของคุณ</string>
+    <string name="standard_model_title">โมเดลมาตรฐาน (หลายภาษา)</string>
+    <string name="standard_model_description">นี่คือตัวเลือกที่เร็วกว่าและเบากว่าที่ใช้งานได้ดีในการใช้งานประจำวัน แปลงคำพูดของคุณเป็นข้อความอย่างรวดเร็วและไม่ใช้พื้นที่มากในโทรศัพท์ของคุณ เหมาะอย่างยิ่งหากคุณต้องการผลลัพธ์ที่รวดเร็วและใช้หลายภาษา คิดว่ามันเหมือนรถยนต์ขนาดเล็ก - มีประสิทธิภาพและทำงานได้สำเร็จ</string>
+    <string name="optimized_model_title">โมเดลที่ปรับให้เหมาะสม (หลายภาษา)</string>
+    <string name="optimized_model_description">นี่คือตัวเลือกที่ทรงพลังกว่าที่ให้การถอดเสียงที่แม่นยำที่สุดเท่าที่จะเป็นไปได้ ใช้เวลานานขึ้นเล็กน้อยและใช้พื้นที่จัดเก็บมากขึ้น แต่จับคำได้ถูกต้องมากขึ้น โดยเฉพาะกับสำเนียงหรือเสียงรบกวนพื้นหลัง เหมือนรถยนต์หรู - ใหญ่กว่าและช้ากว่า แต่ให้คุณภาพระดับพรีเมียม หมายเหตุ: ไม่รองรับภาษาฮินดี/คุชราต</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">ประสิทธิภาพที่เร็วขึ้นและขนาดไฟล์ที่เล็กลง\nรองรับทุกภาษา</string>
+    <string name="optimized_model_setting_desc">ความแม่นยำสูงสุดที่มี\nขนาดไฟล์ใหญ่ขึ้น ประสิทธิภาพช้าลง\nรองรับทุกภาษายกเว้นฮินดี/คุชราต</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">การเลือกโมเดล</string>
+    <string name="settings_model_selection_text">โมเดล AI</string>
+    <string name="settings_model_selection_description">เลือกโมเดลที่เหมาะสมกับความต้องการของคุณมากที่สุด</string>
 </resources>

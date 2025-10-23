@@ -116,7 +116,7 @@
     <string name="download">下载</string>
     <!-- Settings Screen -->
     <string name="settings">设置</string>
-    <string name="customize_your_experience">个性化您的体验</string>
+    <string name="customize_your_experience">向下滚动查看所有设置</string>
     <string name="language_and_region">语言与地区</string>
     <string name="transcription_language">转录语言</string>
     <string name="language_used_for_voice_transcription">语音转录使用的语言</string>
@@ -184,4 +184,22 @@
     <string name="batch_export_settings_no_folder_selected">文件夹选择已取消</string>
     <!-- Import -->
     <string name="import_failed_title">导入失败</string>
+    <string name="ok">确定</string>
+    <string name="select_deselect_all">全选 / 取消全选</string>
+    <string name="top_bar_import_video">导入视频</string>
+    <string name="question_mark">问号</string>
+    <string name="ai_model_title">什么是AI模型？</string>
+    <string name="ai_model_description">AI模型就像一个经过训练的数字大脑，能够理解语音并将其转换为书面文本。不同的模型有不同的优势 - 有些更快，有些更准确。选择符合您需求的模型。</string>
+    <string name="standard_model_title">标准模型（多语言）</string>
+    <string name="standard_model_description">这是更快、更轻的选项，适合日常使用。它能快速将您的语音转换为文本，并且不会占用手机太多空间。如果您想要快速结果并使用多种语言，这是完美的选择。可以把它想象成一辆紧凑型汽车 - 高效并能完成工作。</string>
+    <string name="optimized_model_title">优化模型（多语言）</string>
+    <string name="optimized_model_description">这是更强大的选项，能为您提供尽可能准确的转录。它需要更长的时间并使用更多存储空间，但能更准确地捕捉单词，特别是在有口音或背景噪音的情况下。就像一辆豪华车 - 更大、更慢，但提供优质品质。注意：不支持印地语/古吉拉特语。</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">性能更快，文件更小\n支持所有语言</string>
+    <string name="optimized_model_setting_desc">可用的最高准确度\n文件较大，性能较慢\n支持除印地语/古吉拉特语外的所有语言</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">模型选择</string>
+    <string name="settings_model_selection_text">AI 模型</string>
+    <string name="settings_model_selection_description">选择最适合您需求的模型</string>
 </resources>

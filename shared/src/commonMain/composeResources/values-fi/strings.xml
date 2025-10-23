@@ -118,7 +118,7 @@
     <string name="download">Lataa</string>
     <!-- Settings Screen -->
     <string name="settings">Asetukset</string>
-    <string name="customize_your_experience">Mukauta kokemustasi</string>
+    <string name="customize_your_experience">Vieritä alas nähdäksesi kaikki asetukset</string>
     <string name="language_and_region">Kieli &amp; Alue</string>
     <string name="transcription_language">Transkriptiokieli</string>
     <string name="language_used_for_voice_transcription">Puhetranskripcióssa käytettävä kieli</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">Kansion valinta peruutettu</string>
     <!-- Import -->
     <string name="import_failed_title">Tuonti epäonnistui</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Valitse / Poista valinta kaikista</string>
+    <string name="top_bar_import_video">Tuo video</string>
+    <string name="question_mark">kysymysmerkki</string>
+    <string name="ai_model_title">Mikä on tekoälymalli?</string>
+    <string name="ai_model_description">Tekoälymalli on kuin digitaalinen aivot, joka on koulutettu ymmärtämään puhetta ja muuttamaan se kirjoitetuksi tekstiksi. Eri malleilla on eri vahvuudet - jotkut ovat nopeampia, jotkut tarkempia. Valitse tarpeisiisi sopiva.</string>
+    <string name="standard_model_title">Vakiomalli (monikielinen)</string>
+    <string name="standard_model_description">Tämä on nopeampi, kevyempi vaihtoehto, joka toimii hyvin päivittäisessä käytössä. Se muuntaa puheesi nopeasti tekstiksi eikä vie paljon tilaa puhelimestasi. Täydellinen, jos haluat nopeita tuloksia ja käytät useita kieliä. Ajattele sitä kuin pientä autoa - tehokas ja tekee työn.</string>
+    <string name="optimized_model_title">Optimoitu malli (monikielinen)</string>
+    <string name="optimized_model_description">Tämä on tehokkaampi vaihtoehto, joka antaa tarkimmat mahdolliset transkriptiot. Se kestää hieman kauemmin ja käyttää enemmän tallennustilaa, mutta tunnistaa enemmän sanoja oikein, erityisesti aksenttien tai taustamelun kanssa. Kuin luksusauto - isompi ja hitaampi, mutta tarjoaa premium-laatua. Huomaa: ei tue hindiä/gudžaratia.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Nopeampi suorituskyky ja pienempi tiedostokoko\nTukee kaikkia kieliä</string>
+    <string name="optimized_model_setting_desc">Korkein saatavilla oleva tarkkuus\nSuurempi tiedostokoko, hitaampi suorituskyky\nTukee kaikkia kieliä paitsi hindiä/gudžaratia</string>
+    <string name="standard_model_setting_size">142 Mt</string>
+    <string name="optimized_model_setting_size">465 Mt</string>
+    <string name="settings_model_selection">Mallin valinta</string>
+    <string name="settings_model_selection_text">Tekoälymalli</string>
+    <string name="settings_model_selection_description">Valitse tarpeisiisi parhaiten sopiva malli</string>
 </resources>

@@ -118,7 +118,7 @@
     <string name="download">ダウンロード</string>
     <!-- Settings Screen -->
     <string name="settings">設定</string>
-    <string name="customize_your_experience">あなたの体験をカスタマイズ</string>
+    <string name="customize_your_experience">下にスクロールしてすべての設定を表示</string>
     <string name="language_and_region">言語と地域</string>
     <string name="transcription_language">文字起こし言語</string>
     <string name="language_used_for_voice_transcription">音声文字起こしに使用される言語</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">フォルダの選択がキャンセルされました</string>
     <!-- Import -->
     <string name="import_failed_title">インポートに失敗しました</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">すべて選択 / 選択解除</string>
+    <string name="top_bar_import_video">動画をインポート</string>
+    <string name="question_mark">疑問符</string>
+    <string name="ai_model_title">AIモデルとは？</string>
+    <string name="ai_model_description">AIモデルは、音声を理解し、それを書かれたテキストに変換するように訓練されたデジタル脳のようなものです。異なるモデルには異なる強みがあります - より速いものもあれば、より正確なものもあります。あなたのニーズに合ったものを選んでください。</string>
+    <string name="standard_model_title">標準モデル（多言語）</string>
+    <string name="standard_model_description">これは、日常的な使用に適した、より高速で軽量なオプションです。音声をすばやくテキストに変換し、携帯電話のスペースをあまり占有しません。迅速な結果が必要で、複数の言語を使用する場合に最適です。コンパクトカーのように考えてください - 効率的で仕事を成し遂げます。</string>
+    <string name="optimized_model_title">最適化されたモデル（多言語）</string>
+    <string name="optimized_model_description">これは、可能な限り最も正確な文字起こしを提供する、より強力なオプションです。少し時間がかかり、より多くのストレージを使用しますが、特にアクセントやバックグラウンドノイズがある場合に、より多くの単語を正確にキャッチします。高級車のように - より大きく、より遅いですが、プレミアム品質を提供します。注：ヒンディー語/グジャラート語はサポートしていません。</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">高速なパフォーマンスと小さいファイルサイズ\nすべての言語をサポート</string>
+    <string name="optimized_model_setting_desc">最高の精度\nファイルサイズが大きく、パフォーマンスが遅い\nヒンディー語/グジャラート語を除くすべての言語をサポート</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">モデルの選択</string>
+    <string name="settings_model_selection_text">AIモデル</string>
+    <string name="settings_model_selection_description">ニーズに最適なモデルを選択してください</string>
 </resources>

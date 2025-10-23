@@ -118,7 +118,7 @@
     <string name="download">Descargar</string>
     <!-- Settings Screen -->
     <string name="settings">Configuración</string>
-    <string name="customize_your_experience">Personaliza a túa experiencia</string>
+    <string name="customize_your_experience">Desprázate cara abaixo para ver todos os axustes</string>
     <string name="language_and_region">Idioma e rexión</string>
     <string name="transcription_language">Idioma de transcrición</string>
     <string name="language_used_for_voice_transcription">Idioma usado para a transcrición de voz</string>
@@ -186,4 +186,22 @@
     <string name="batch_export_settings_no_folder_selected">Selección de cartafol cancelada</string>
     <!-- Import -->
     <string name="import_failed_title">Importación fallida</string>
+    <string name="ok">Aceptar</string>
+    <string name="select_deselect_all">Seleccionar / Deseleccionar todo</string>
+    <string name="top_bar_import_video">Importar vídeo</string>
+    <string name="question_mark">signo de interrogación</string>
+    <string name="ai_model_title">Que é un modelo de IA?</string>
+    <string name="ai_model_description">Un modelo de IA é como un cerebro dixital que foi adestrado para entender a fala e convertela en texto escrito. Os diferentes modelos teñen diferentes fortalezas - algúns son máis rápidos, algúns son máis precisos. Escolle o que se adapte ás túas necesidades.</string>
+    <string name="standard_model_title">Modelo estándar (multilingüe)</string>
+    <string name="standard_model_description">Esta é a opción máis rápida e lixeira que funciona ben para o uso diario. Converte rapidamente a túa voz en texto e non ocupa moito espazo no teu teléfono. Perfecto se queres resultados rápidos e usas varios idiomas. Pensa nel como un coche compacto - eficiente e fai o traballo.</string>
+    <string name="optimized_model_title">Modelo optimizado (multilingüe)</string>
+    <string name="optimized_model_description">Esta é a opción máis potente que che ofrece as transcricións máis precisas posibles. Tarda un pouco máis e usa máis almacenamento, pero captura máis palabras correctamente, especialmente con acentos ou ruído de fondo. Como un coche de luxo - máis grande e máis lento, pero ofrece calidade premium. Nota: non admite hindi/gujarati.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Rendemento mais rápido e tamaño de ficheiro mais pequeno\nAdmite todos os idiomas</string>
+    <string name="optimized_model_setting_desc">Maior precisión dispoñible\nTamaño de ficheiro maior, rendemento máis lento\nAdmite todos os idiomas agás hindi/guxarati</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">Selección de modelo</string>
+    <string name="settings_model_selection_text">Modelo de IA</string>
+    <string name="settings_model_selection_description">Escolla o modelo que mellor se adapte ás súas necesidades</string>
 </resources>

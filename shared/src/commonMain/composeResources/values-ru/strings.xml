@@ -120,7 +120,7 @@
     <string name="download">Загрузить</string>
     <!-- Settings Screen -->
     <string name="settings">Настройки</string>
-    <string name="customize_your_experience">Настройте свой опыт</string>
+    <string name="customize_your_experience">Прокрутите вниз, чтобы увидеть все настройки</string>
     <string name="language_and_region">Язык и регион</string>
     <string name="transcription_language">Язык транскрипции</string>
     <string name="language_used_for_voice_transcription">Язык, используемый для транскрипции голоса</string>
@@ -188,4 +188,22 @@
     <string name="batch_export_settings_no_folder_selected">Выбор папки отменен</string>
     <!-- Import -->
     <string name="import_failed_title">Импорт не удался</string>
+    <string name="ok">OK</string>
+    <string name="select_deselect_all">Выбрать / Отменить выбор всех</string>
+    <string name="top_bar_import_video">Импортировать видео</string>
+    <string name="question_mark">вопросительный знак</string>
+    <string name="ai_model_title">Что такое модель ИИ?</string>
+    <string name="ai_model_description">Модель ИИ подобна цифровому мозгу, который был обучен понимать речь и преобразовывать её в письменный текст. Разные модели имеют разные сильные стороны - некоторые быстрее, некоторые точнее. Выберите ту, которая соответствует вашим потребностям.</string>
+    <string name="standard_model_title">Стандартная модель (многоязычная)</string>
+    <string name="standard_model_description">Это более быстрый, лёгкий вариант, который хорошо работает для повседневного использования. Он быстро преобразует вашу речь в текст и не занимает много места на вашем телефоне. Идеально, если вам нужны быстрые результаты и вы используете несколько языков. Думайте о нём как о компактном автомобиле - эффективный и выполняет работу.</string>
+    <string name="optimized_model_title">Оптимизированная модель (многоязычная)</string>
+    <string name="optimized_model_description">Это более мощный вариант, который даёт вам максимально точные транскрипции. Он занимает немного больше времени и использует больше памяти, но правильно распознаёт больше слов, особенно с акцентами или фоновым шумом. Как роскошный автомобиль - больше и медленнее, но обеспечивает премиальное качество. Примечание: не поддерживает хинди/гуджарати.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">Более быстрая работа и меньший размер файла\nПоддерживает все языки</string>
+    <string name="optimized_model_setting_desc">Максимальная доступная точность\nБольший размер файла, более медленная работа\nПоддерживает все языки, кроме хинди/гуджарати</string>
+    <string name="standard_model_setting_size">142 МБ</string>
+    <string name="optimized_model_setting_size">465 МБ</string>
+    <string name="settings_model_selection">Выбор модели</string>
+    <string name="settings_model_selection_text">Модель ИИ</string>
+    <string name="settings_model_selection_description">Выберите модель, которая лучше всего соответствует вашим потребностям</string>
 </resources>

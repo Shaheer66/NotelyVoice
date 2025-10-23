@@ -122,7 +122,7 @@
     <string name="download">تنزيل</string>
     <!-- Settings Screen -->
     <string name="settings">الإعدادات</string>
-    <string name="customize_your_experience">خصص تجربتك</string>
+    <string name="customize_your_experience">مرر لأسفل لرؤية جميع الإعدادات</string>
     <string name="language_and_region">اللغة والمنطقة</string>
     <string name="transcription_language">لغة التفريغ</string>
     <string name="language_used_for_voice_transcription">اللغة المستخدمة في التفريغ الصوتي</string>
@@ -190,4 +190,22 @@
     <string name="batch_export_settings_no_folder_selected">تم إلغاء اختيار المجلد</string>
     <!-- Import -->
     <string name="import_failed_title">การนำเข้าล้มเหลว</string>
+    <string name="ok">موافق</string>
+    <string name="select_deselect_all">تحديد / إلغاء تحديد الكل</string>
+    <string name="top_bar_import_video">استيراد فيديو</string>
+    <string name="question_mark">علامة استفهام</string>
+    <string name="ai_model_title">ما هو نموذج الذكاء الاصطناعي؟</string>
+    <string name="ai_model_description">نموذج الذكاء الاصطناعي يشبه الدماغ الرقمي الذي تم تدريبه لفهم الكلام وتحويله إلى نص مكتوب. النماذج المختلفة لها نقاط قوة مختلفة - بعضها أسرع، وبعضها أكثر دقة. اختر النموذج الذي يناسب احتياجاتك.</string>
+    <string name="standard_model_title">النموذج القياسي (متعدد اللغات)</string>
+    <string name="standard_model_description">هذا هو الخيار الأسرع والأخف الذي يعمل بشكل جيد للاستخدام اليومي. يقوم بتحويل كلامك إلى نص بسرعة ولا يشغل مساحة كبيرة على هاتفك. مثالي إذا كنت تريد نتائج سريعة وتستخدم لغات متعددة. فكر فيه مثل سيارة صغيرة - فعالة وتنجز المهمة.</string>
+    <string name="optimized_model_title">النموذج المحسّن (متعدد اللغات)</string>
+    <string name="optimized_model_description">هذا هو الخيار الأكثر قوة الذي يمنحك أدق النسخ الممكنة. يستغرق وقتًا أطول قليلاً ويستخدم مساحة تخزين أكبر، لكنه يلتقط المزيد من الكلمات بشكل صحيح، خاصة مع اللهجات أو الضوضاء في الخلفية. مثل سيارة فاخرة - أكبر وأبطأ، لكنها تقدم جودة ممتازة. ملاحظة: لا يدعم الهندية/الغوجاراتية.</string>
+    <!-- settings -->
+    <string name="standard_model_setting_desc">أداء أسرع وحجم ملف أصغر\nيدعم جميع اللغات</string>
+    <string name="optimized_model_setting_desc">أعلى دقة متاحة\nحجم ملف أكبر، أداء أبطأ\nيدعم جميع اللغات باستثناء الهندية/الغوجاراتية</string>
+    <string name="standard_model_setting_size">142 ميجابايت</string>
+    <string name="optimized_model_setting_size">465 ميجابايت</string>
+    <string name="settings_model_selection">اختيار النموذج</string>
+    <string name="settings_model_selection_text">نموذج الذكاء الاصطناعي</string>
+    <string name="settings_model_selection_description">اختر النموذج الذي يناسب احتياجاتك</string>
 </resources>
