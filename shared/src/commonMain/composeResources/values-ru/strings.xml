@@ -120,7 +120,7 @@
     <string name="download">Загрузить</string>
     <!-- Settings Screen -->
     <string name="settings">Настройки</string>
-    <string name="customize_your_experience">Настройте свой опыт</string>
+    <string name="customize_your_experience">Прокрутите вниз, чтобы увидеть все настройки</string>
     <string name="language_and_region">Язык и регион</string>
     <string name="transcription_language">Язык транскрипции</string>
     <string name="language_used_for_voice_transcription">Язык, используемый для транскрипции голоса</string>
@@ -188,4 +188,8 @@
     <string name="batch_export_settings_no_folder_selected">Выбор папки отменен</string>
     <!-- Import -->
     <string name="import_failed_title">Импорт не удался</string>
+    <string name="export">Экспорт</string>
+    <string name="ok">OK</string>
+    <string name="top_bar_import_video">Импорт видео</string>
+    <string name="select_deselect_all">Выбрать все / Снять выбор</string>
 </resources>
