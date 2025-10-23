@@ -190,4 +190,14 @@
     <string name="ok">Sobib</string>
     <string name="top_bar_import_video">Impordi video</string>
     <string name="select_deselect_all">Vali kõik / Eemalda valik</string>
+    <string name="copy">Kopeeri</string>
+    <string name="copied">Kopeeritud!</string>
+    <string name="transcription_model_selection">Mudeli valik</string>
+    <string name="question_mark">küsimärk</string>
+    <string name="ai_model_title">Mis on tehisaru mudel?</string>
+    <string name="standard_model_setting_size">142 MB</string>
+    <string name="optimized_model_setting_size">465 MB</string>
+    <string name="settings_model_selection">Mudeli valik</string>
+    <string name="settings_model_selection_text">Tehisaru mudel</string>
+    <string name="settings_model_selection_description">Vali mudel, mis parimal viisil sobib sinu vajadustega</string>
 </resources>
