@@ -90,6 +90,7 @@ fun DetailNoteTopBar(
         DetailIOSNoteTopBar(
             onNavigateBack = onNavigateBack,
             onShare = onShare,
+            onCopy = onCopy,
             onExportAudio = onExportAudio,
             onImportClick = {
                 if (!isRecordingExist) {
@@ -189,6 +190,7 @@ fun DetailAndroidNoteTopBar(
 @Composable
 fun DetailIOSNoteTopBar(
     onNavigateBack: () -> Unit,
+    onCopy: () -> Unit,
     onExportAudio: () -> Unit,
     onImportClick: () -> Unit,
     onImportVideoClick: () -> Unit,
@@ -217,6 +219,14 @@ fun DetailIOSNoteTopBar(
             }
         },
         actions = {
+            IconButton(onClick = { onCopy() }) {
+                Icon(
+                    painter = painterResource(Res.drawable.ic_copy),
+                    contentDescription = stringResource(Res.string.copy),
+                    modifier = Modifier.size(24.dp)
+                )
+            }
+            
             IconButton(onClick = { onShare() }) {
                 Icon(
                     imageVector = Icons.Filled.Share,
