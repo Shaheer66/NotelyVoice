@@ -17,4 +17,6 @@
     <string name="top_bar_import_video">Import videa</string>
     <string name="top_bar_export_as_pdf">Uložit jako PDF</string>
     <string name="top_bar_export_as_txt">Uložit jako text</string>
+    <string name="confirmation">Potvrdit</string>
+    <string name="confirmation_text">Chcete tuto poznámku smazat? Tuto akci nelze vzít zpět</string>
 </resources>
