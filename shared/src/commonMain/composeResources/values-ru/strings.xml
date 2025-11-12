@@ -188,9 +188,10 @@
     <string name="batch_export_settings_no_folder_selected">Выбор папки отменен</string>
     <!-- Import -->
     <string name="import_failed_title">Импорт не удался</string>
-    <string name="ok">OK</string>
-    <string name="select_deselect_all">Выбрать / Отменить выбор всех</string>
-    <string name="top_bar_import_video">Импортировать видео</string>
+    <string name="top_bar_import_video">Импорт видео</string>
+    <string name="select_deselect_all">Выбрать все / Снять выбор</string>
+    <string name="copy">Копировать</string>
+    <string name="copied">Скопировано!</string>
     <string name="question_mark">вопросительный знак</string>
     <string name="ai_model_title">Что такое модель ИИ?</string>
     <string name="ai_model_description">Модель ИИ подобна цифровому мозгу, который был обучен понимать речь и преобразовывать её в письменный текст. Разные модели имеют разные сильные стороны - некоторые быстрее, некоторые точнее. Выберите ту, которая соответствует вашим потребностям.</string>

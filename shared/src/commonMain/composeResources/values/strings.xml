@@ -7,6 +7,7 @@
     <string name="export">Export</string>
     <string name="navigate">Navigate</string>
     <string name="ok">OK</string>
+    <string name="copy">Copy</string>
     <!-- TopBar -->
     <string name="top_bar_back">Back</string>
     <string name="top_bar_notes">Notely Voice</string>
@@ -49,6 +50,7 @@
     <!-- Note Detail -->
     <string name="note_detail_recorder">Recorder</string>
     <string name="transcription_icon">Icon</string>
+    <string name="copied">Copied!</string>
     <!-- Date Selection -->
     <string name="note_detail_more_options">More options</string>
     <!-- Date Tab Bar -->

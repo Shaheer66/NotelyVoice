@@ -118,7 +118,7 @@
     <string name="download">Laadi alla</string>
     <!-- Settings Screen -->
     <string name="settings">Seadistused</string>
-    <string name="customize_your_experience">Keri alla, et näha kõiki seadeid</string>
+    <string name="customize_your_experience">Kõikide seadistuste vaatamiseks keri alla</string>
     <string name="language_and_region">Keel ja piirkond</string>
     <string name="transcription_language">Ümberkirjutuse keel</string>
     <string name="language_used_for_voice_transcription">Heli ümberkirjutuseks kasutatud keel</string>
@@ -186,11 +186,15 @@
     <string name="batch_export_settings_no_folder_selected">Kausta valik tühistati</string>
     <!-- Import -->
     <string name="import_failed_title">Import ebaõnnestus</string>
-    <string name="ok">OK</string>
-    <string name="select_deselect_all">Vali / Tühista kõik</string>
+    <string name="export">Ekspordi</string>
+    <string name="ok">Sobib</string>
     <string name="top_bar_import_video">Impordi video</string>
+    <string name="select_deselect_all">Vali kõik / Eemalda valik</string>
+    <string name="copy">Kopeeri</string>
+    <string name="copied">Kopeeritud!</string>
+    <string name="transcription_model_selection">Mudeli valik</string>
     <string name="question_mark">küsimärk</string>
-    <string name="ai_model_title">Mis on AI mudel?</string>
+    <string name="ai_model_title">Mis on tehisaru mudel?</string>
     <string name="ai_model_description">AI mudel on nagu digitaalne aju, mis on koolitatud kõnet mõistma ja seda kirjalikuks tekstiks teisendama. Erinevatel mudelitel on erinevad tugevused - mõned on kiiremad, mõned täpsemad. Vali see, mis sobib sinu vajadustega.</string>
     <string name="standard_model_title">Standardmudel (mitmekeelne)</string>
     <string name="standard_model_description">See on kiirem ja kergem valik, mis sobib igapäevaseks kasutamiseks. See teisendab su kõne kiiresti tekstiks ega võta telefonis palju ruumi. Ideaalne, kui soovid kiireid tulemusi ja kasutad mitut keelt. Mõtle sellele nagu kompaktsele autole - tõhus ja teeb töö ära.</string>
@@ -202,6 +206,6 @@
     <string name="standard_model_setting_size">142 MB</string>
     <string name="optimized_model_setting_size">465 MB</string>
     <string name="settings_model_selection">Mudeli valik</string>
-    <string name="settings_model_selection_text">AI mudel</string>
-    <string name="settings_model_selection_description">Valige oma vajadustele sobiv mudel</string>
+    <string name="settings_model_selection_text">Tehisaru mudel</string>
+    <string name="settings_model_selection_description">Vali mudel, mis parimal viisil sobib sinu vajadustega</string>
 </resources>
