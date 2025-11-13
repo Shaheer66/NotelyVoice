@@ -204,4 +204,8 @@
     <string name="settings_model_selection">Modellval</string>
     <string name="settings_model_selection_text">AI-modell</string>
     <string name="settings_model_selection_description">Välj den modell som bäst passar dina behov</string>
+    <string name="export">Exportera</string>
+    <string name="copy">Kopiera</string>
+    <string name="copied">Kopierad!</string>
+    <string name="transcription_model_selection">Modellval</string>
 </resources>

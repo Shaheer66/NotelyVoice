@@ -207,4 +207,6 @@
     <string name="settings_model_selection">Выбор модели</string>
     <string name="settings_model_selection_text">Модель ИИ</string>
     <string name="settings_model_selection_description">Выберите модель, которая лучше всего соответствует вашим потребностям</string>
+    <string name="export">Экспорт</string>
+    <string name="transcription_model_selection">Выбор модели</string>
 </resources>

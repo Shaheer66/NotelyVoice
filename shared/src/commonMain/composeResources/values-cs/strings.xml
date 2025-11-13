@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Notely Voice</string>
     <string name="error">Chyba</string>
+    <string name="app_name">Notely Voice</string>
     <string name="close">Zavřít</string>
     <string name="cancel">Zrušit</string>
-    <string name="export">Exportovat</string>
+    <string name="export">Export</string>
     <string name="navigate">Navigovat</string>
     <string name="ok">OK</string>
     <string name="copy">Kopírovat</string>
@@ -12,15 +12,18 @@
     <string name="top_bar_back">Zpět</string>
     <string name="top_bar_notes">Notely Voice</string>
     <string name="top_bar_menu">Menu</string>
-    <string name="top_bar_my_note">Má poznámka</string>
-    <string name="top_bar_export_audio_folder">Exportovat zvuk do složky</string>
-    <string name="top_bar_import_audio">Importovat zvuk</string>
-    <string name="top_bar_import_video">Importovat video</string>
-    <string name="top_bar_export_as_pdf">Exportovat text jako PDF</string>
-    <string name="top_bar_export_as_txt">Exportovat jako textový soubor</string>
+    <string name="top_bar_my_note">Moje poznámka</string>
+    <string name="top_bar_export_audio_folder">Export zvuku do složky</string>
+    <string name="top_bar_import_audio">Import zvuku</string>
+    <string name="top_bar_import_video">Import videa</string>
+    <string name="top_bar_export_as_pdf">Uložit jako PDF</string>
+    <string name="top_bar_export_as_txt">Uložit jako text</string>
+    <string name="confirmation">Potvrdit</string>
+    <string name="confirmation_text">Chcete tuto poznámku smazat? Tuto akci nelze vzít zpět</string>
+
     <!-- Delete Dialog -->
     <string name="confirmation">Potvrdit</string>
-    <string name="confirmation_text">Chcete smazat poznámku? Tuto akci nelze vrátit zpět</string>
+    <string name="confirmation_text">Chcete tuto poznámku smazat? Tuto akci nelze vzít zpět</string>
     <string name="recording_confirmation_text">Opravdu chcete smazat nahrávku? Tuto akci nelze vrátit zpět</string>
     <string name="confirmation_delete">Smazat</string>
     <string name="confirmation_cancel">Zrušit</string>

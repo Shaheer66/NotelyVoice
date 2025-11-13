@@ -206,4 +206,8 @@
     <string name="settings_model_selection">Wybór modelu</string>
     <string name="settings_model_selection_text">Model AI</string>
     <string name="settings_model_selection_description">Wybierz model najlepiej odpowiadający Twoim potrzebom</string>
+    <string name="export">Eksport</string>
+    <string name="copy">Kopiuj</string>
+    <string name="transcription_model_selection">Wybór modelu</string>
+    <string name="copied">Skopiowano!</string>
 </resources>
