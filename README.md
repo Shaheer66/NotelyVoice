@@ -3,7 +3,6 @@
 [![Kotlin](https://img.shields.io/badge/kotlin-2.1.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/compose-1.8.0-blue.svg?logo=jetpackcompose)](https://www.jetbrains.com/lp/compose-multiplatform)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
-[![](https://hosted.weblate.org/widget/notelyvoice/svg-badge.svg)](https://hosted.weblate.org/engage/notelyvoice/)
 
 A completely free, modern, cross-platform, 100% private AI voice transcription & note-taking application with powerful Whisper AI Voice to Text capabilities built with Compose Multiplatform.
 
@@ -21,10 +20,6 @@ Perfect for students capturing lectures, professionals documenting meetings, doc
     <img alt="Available at Appstore" height="64" src="https://dbsqho33cgp4y.cloudfront.net/github/app-store-badge.png" />
 </a>
 </div>
-
-## Translations
-This project uses [Weblate](https://hosted.weblate.org/engage/notelyvoice/) for translation management. Help us translate NotelyVoice into your language!
-<br/>
 
 ## Screenshots
 
