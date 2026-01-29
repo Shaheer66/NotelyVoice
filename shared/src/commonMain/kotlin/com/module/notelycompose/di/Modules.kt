@@ -6,6 +6,7 @@ import com.module.notelycompose.audio.presentation.AudioRecorderViewModel
 import com.module.notelycompose.audio.presentation.mappers.AudioPlayerPresentationToUiMapper
 import com.module.notelycompose.audio.presentation.mappers.AudioRecorderPresentationToUiMapper
 import com.module.notelycompose.database.NoteDatabase
+import com.module.notelycompose.modelDownloader.ModelDownloader
 import com.module.notelycompose.modelDownloader.ModelDownloaderViewModel
 import com.module.notelycompose.notes.data.NoteSqlDelightDataSource
 import com.module.notelycompose.notes.domain.DeleteNoteById
@@ -51,6 +52,7 @@ val appModule = module {
     }
 
     factory { ModelSelection(get()) }
+    factory<ModelDownloader> { get() }
 
 }
 

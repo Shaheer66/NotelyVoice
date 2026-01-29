@@ -7,6 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.module.notelycompose.core.composableWithHorizontalSlide
+import com.module.notelycompose.notes.ui.settings.ModelSelectionScreen
 import com.module.notelycompose.notes.ui.theme.MyApplicationTheme
 import com.module.notelycompose.transcription.TranscriptionScreen
 
@@ -23,8 +24,15 @@ fun App() {
             ) {
                 composableWithHorizontalSlide("transcription") {
                     TranscriptionScreen(
-                        navigateBack = { /* No-op */ },
+                        navigateBack = { /* No-op for now */ },
+                        navigateToSettings = { navController.navigate("model_selection") },
                         editorViewModel = koinViewModel(),
+                    )
+                }
+                composableWithHorizontalSlide("model_selection") {
+                    ModelSelectionScreen(
+                        navigateBack = { navController.popBackStack() },
+                        navigateToModelExplanation = { /* TODO */ }
                     )
                 }
             }
